@@ -28,42 +28,43 @@ body {
 
 .mainContainer h1 {
   margin-bottom: 2%;
-  font-size: 3rem;
+  font-size: 2.7rem;
   font-weight: 600;
+  letter-spacing: 0.1rem;
 }
 
 .mainContainer p {
-  width: 40%;
+  width: 45%;
   font-weight: 500;
   text-align: center;
-  font-size: 26px;
+  font-size: 22px;
   margin: 0;
 }
 
 .mainContainer .boldText {
   font-weight: 700;
-  font-size: 30px;
-  width: 34%;
+  font-size: 28px;
+  width: 40%;
 }
 .mainContainer .boldTextBottom {
   font-weight: 700;
-  font-size: 30px;
-  width: 37%;
+  font-size: 28px;
+  width: 44%;
 }
 
 .mainContainer img {
-  width: 35%;
+  width: 40%;
   margin: 3% 0 3% 0;
 }
 
 .mainContainer .containerP {
   width: 40%;
-  font-size: 26px;
+  font-size: 22px;
   margin-bottom: 4%;
 }
 
 .mainContainer button {
-  width: 9.5%;
+  width: 11%;
   background-color: #766e65;
   color: white;
   font-size: 21px;
@@ -88,19 +89,28 @@ body {
 
 .whyContainer {
   width: 40%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   text-align: center;
 }
 
 .whyContainer h2 {
-  font-size: 50px;
+  font-size: 40px;
+  width: 78%;
+  margin: auto;
+  line-height: 51px;
+  font-weight: 400;
 }
 
 .whyContainer p {
   font-weight: 500;
   text-align: center;
-  font-size: 29px;
+  font-size: 22px;
   margin: 0;
+  width: 100%;
 }
 
 .linksContainer {
@@ -185,7 +195,15 @@ body {
 }
 
 .h_footer-container {
-  margin-right: 29.7%;
+  margin: 4.5% 35.6% 0 0;
+}
+
+.h_footer-container h3 {
+  font-size: 1.57rem;
+}
+.h_footer-container p {
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .formContainer {
@@ -194,8 +212,8 @@ body {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 60%;
+  width: 59.5%;
+  height: 62%;
 }
 
 .dataFenedur {
@@ -203,13 +221,23 @@ body {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  gap: 25%;
-  margin-top: 1%;
+  width: 59.6%;
+  gap: 16%;
+  margin-top: 3%;
+}
+
+.dataFenedur .logoContainer {
+  width: 100%;
+}
+
+.dataFenedur .logoContainer p {
+  margin: 2rem 0 1rem 0;
+  font-weight: 500;
 }
 
 .adress {
-  margin: 0 0 0 1%;
+  margin: 0;
+  width: 100%;
 }
 
 .adress p {
@@ -219,5 +247,5 @@ body {
 
 .adress span {
   font-weight: 500;
-  color: #7e7c7b;
+  color: #b1aba8;
 }
