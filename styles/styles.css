@@ -78,6 +78,41 @@ body {
   color: white;
 }
 
+.logoFenedur {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+.logoFenedur img {
+  width: 75%;
+}
+
+.v-line {
+  border-left: thick solid #fff;
+  height: 24%;
+  left: 75%;
+  position: absolute;
+  top: 18%;
+  color: #fff;
+}
+.v-line p {
+  font-size: 35px;
+  font-weight: 500;
+  margin-left: 5%;
+}
+
+/* Hamburguer */
+
+.hamburguer {
+  position: absolute;
+  left: 95%;
+  top: 5%;
+  font-size: 40px;
+  color: #fff;
+}
+
+/* Por que comprar */
+
 .whyBuy {
   width: 100%;
   display: flex;
@@ -105,13 +140,20 @@ body {
   font-weight: 400;
 }
 
+.whyContainer img {
+  width: 60%;
+  margin: 7% 0 7% 0;
+}
+
 .whyContainer p {
   font-weight: 500;
   text-align: center;
   font-size: 22px;
-  margin: 0;
+  margin: 0 0 10% 0;
   width: 100%;
 }
+
+/* Links de info */
 
 .linksContainer {
   width: 100%;
@@ -124,33 +166,48 @@ body {
 }
 
 .linksContainer .link {
-  width: 19%;
+  width: 24.4%;
   height: 10.5rem;
   background-color: #ebeae8;
 }
 
-.linksContainer .catalogue {
-  width: 19%;
-  height: 10.5rem;
+.linksContainer .black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
   background-color: #3b3835;
+  color: #fff;
 }
 
 .linksContainer .linkText {
-  width: 5rem;
-  margin: 12% 0% 0% 47%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
   font-weight: 400;
-  color: #766e65;
+  color: #fff;
+  width: 79%;
+  gap: 11%;
 }
 .linksContainer p {
-  margin-bottom: 25%;
+  margin-bottom: 0;
 }
 
 .linksContainer .linkText a {
   text-decoration: none;
-  color: #766e65;
+  color: #fff;
   font-weight: 500;
   font-size: 24px;
-  line-height: 10px;
+}
+
+.linkText a span {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.linkText .whiteText {
+  color: #fff;
 }
 
 .imgContainer {
@@ -164,9 +221,12 @@ body {
 
 .linksContainer .blackCatalogue {
   width: 5rem;
-  margin: 12% 0% 0% 47%;
+  margin: -12% 0% 0% 45%;
   font-weight: 400;
   color: #766e65;
+}
+.black img {
+  width: 30%;
 }
 
 .blackCatalogue p {
@@ -179,6 +239,19 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 10px;
+}
+
+/* Guarda Productos */
+
+.products {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.products img {
+  width: 50%;
 }
 
 /* Footer */
@@ -223,11 +296,12 @@ body {
   align-items: center;
   width: 59.6%;
   gap: 16%;
-  margin-top: 3%;
+  margin-top: 2.5%;
 }
 
 .dataFenedur .logoContainer {
   width: 100%;
+  text-align: start;
 }
 
 .dataFenedur .logoContainer p {
