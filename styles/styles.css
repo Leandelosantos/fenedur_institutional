@@ -14,6 +14,16 @@ body {
   color: #766e65;
 }
 
+/* Header */
+
+.carousel-indicators {
+  top: 105%;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #766e65;
+}
+
 /* Navbar */
 
 /* Main Home */
@@ -23,7 +33,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
-  margin-top: 6%;
+  margin-top: 10%;
 }
 
 .mainContainer h1 {
@@ -53,7 +63,7 @@ body {
 }
 
 .mainContainer img {
-  width: 40%;
+  width: 42%;
   margin: 3% 0 3% 0;
 }
 
@@ -80,35 +90,94 @@ body {
 
 .logoFenedur {
   position: absolute;
-  top: 10%;
-  left: 5%;
+  top: 9%;
+  left: 6%;
 }
 .logoFenedur img {
-  width: 75%;
+  width: 61%;
 }
+
+/* V-line */
 
 .v-line {
   border-left: thick solid #fff;
-  height: 24%;
-  left: 75%;
+  height: 18%;
+  left: 75.6%;
   position: absolute;
-  top: 18%;
+  top: 25%;
   color: #fff;
 }
 .v-line p {
-  font-size: 35px;
+  font-size: 26px;
+  width: 70%;
   font-weight: 500;
   margin-left: 5%;
+  letter-spacing: 0.5px;
+}
+
+/* Boton Lenguaje */
+
+.lenguaje {
+  position: absolute;
+  left: 75%;
+  top: 10%;
+  font-size: 18px;
+  width: 10%;
+}
+
+.lenguaje button {
+  width: 100%;
+  background-color: #fff;
+  padding: 6%;
+  border-radius: 28px;
+}
+
+.lenguaje button a {
+  text-decoration: none;
+  width: 100%;
+  color: #59534d;
+  font-weight: 600;
+  margin-right: 10%;
+}
+
+.lenguaje button i {
+  color: #59534d;
+  font-size: 22px;
 }
 
 /* Hamburguer */
 
 .hamburguer {
   position: absolute;
-  left: 95%;
-  top: 5%;
+  left: 92%;
+  top: 9%;
   font-size: 40px;
   color: #fff;
+}
+
+/* Boton Conoce Mas */
+
+.btnConoceMas {
+  position: absolute;
+  left: 45%;
+  top: 88%;
+  font-size: 14px;
+  width: 10%;
+}
+
+.btnConoceMas button {
+  width: 93%;
+  background-color: transparent;
+  padding: 3%;
+  border-radius: 28px;
+  border: 2px solid #fff;
+}
+
+.btnConoceMas button a {
+  text-decoration: none;
+  width: 100%;
+  color: #fff;
+  font-weight: 700;
 }
 
 /* Por que comprar */
@@ -152,11 +221,21 @@ body {
   margin: 0 0 10% 0;
   width: 100%;
 }
+/* img Marcas */
+.brandsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
 
+.brandsContainer img {
+  width: 78%;
+}
 /* Links de info */
 
 .linksContainer {
-  width: 100%;
+  width: 78%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -167,8 +246,12 @@ body {
 
 .linksContainer .link {
   width: 24.4%;
-  height: 10.5rem;
+  height: 8.5rem;
   background-color: #ebeae8;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .linksContainer .black {
@@ -187,36 +270,50 @@ body {
   flex-flow: row nowrap;
   font-weight: 400;
   color: #fff;
-  width: 79%;
-  gap: 11%;
+  /* width: 80%; */
+  width: 100%;
+  margin: 0 0 0 10%;
+  gap: 4%;
 }
-.linksContainer p {
-  margin-bottom: 0;
+.linkText img {
+  width: 34%;
 }
 
 .linksContainer .linkText a {
   text-decoration: none;
-  color: #fff;
+  color: #766e65;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 19px;
+  line-height: 100%;
+  margin: 1% 0 0 2%;
 }
 
 .linkText a span {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
 }
 
-.linkText .whiteText {
+.linkText .download {
+  width: 40%;
+  margin: 13% 6% 0 0;
+}
+
+.black .whiteText a {
   color: #fff;
 }
 
 .imgContainer {
-  width: 100%;
+  width: 40%;
+  margin: 18% 3% 0 0%;
 }
 
 .imgContainer img {
-  width: 40%;
+  width: 60%;
   filter: opacity(0.5);
+}
+
+.linkText .world {
+  width: 25%;
 }
 
 .linksContainer .blackCatalogue {
@@ -226,7 +323,7 @@ body {
   color: #766e65;
 }
 .black img {
-  width: 30%;
+  width: 32%;
 }
 
 .blackCatalogue p {
@@ -295,7 +392,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 59.6%;
-  gap: 16%;
+
   margin-top: 2.5%;
 }
 
@@ -304,14 +401,20 @@ body {
   text-align: start;
 }
 
+.logoContainer img {
+  width: 48%;
+  margin-right: 1%;
+}
+
 .dataFenedur .logoContainer p {
-  margin: 2rem 0 1rem 0;
+  margin: 1rem 0 3rem 0;
   font-weight: 500;
 }
 
 .adress {
-  margin: 0;
   width: 100%;
+  font-size: 18px;
+  margin: 0 0 7% 5%;
 }
 
 .adress p {
