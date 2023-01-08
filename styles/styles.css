@@ -376,15 +376,51 @@ body {
   font-weight: 500;
 }
 
+/* Formulario */
+
 .formContainer {
   background-color: #363330;
-  display: flex;
-  flex-flow: row nowrap;
+  /* display: flex;
+  flex-flow: row wrap;
   justify-content: center;
-  align-items: center;
-  width: 59.5%;
-  height: 62%;
+  align-items: center; */
+  width: 60%;
+  height: 50%;
+  padding: 3%;
 }
+
+.col-md-1 {
+  width: 10%;
+}
+
+.inputSelect {
+  margin-right: 0;
+}
+
+.textareaForm {
+  margin-right: 1%;
+  width: 40%;
+  padding: 0;
+}
+
+.captcha {
+  margin: 4% 0 0 7%;
+}
+
+.btnSubmit {
+  margin-top: 3%;
+}
+
+.btnSubmit button {
+  border-radius: 28px;
+  background-color: #656565;
+  border: none;
+  font-size: 15px;
+  width: 14%;
+  font-weight: 500;
+}
+
+/* Data Fenedur */
 
 .dataFenedur {
   display: flex;
@@ -392,7 +428,6 @@ body {
   justify-content: center;
   align-items: center;
   width: 59.6%;
-
   margin-top: 2.5%;
 }
 
