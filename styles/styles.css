@@ -380,10 +380,6 @@ body {
 
 .formContainer {
   background-color: #363330;
-  /* display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center; */
   width: 60%;
   height: 50%;
   padding: 3%;
@@ -510,11 +506,11 @@ body {
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
-  width: 65%;
+  width: 64%;
   margin: auto;
   text-align: start;
   font-size: 24px;
-  gap: 20px;
+  gap: 45px;
 }
 
 .ourProducts p {
@@ -527,15 +523,41 @@ body {
 
 /* Slider marcas */
 
+.sliderLabel {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.sliderLabel p {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
 .sliderBrands {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
   width: 60%;
-  background-color: #766e65;
+  background-color: #e1dfdd;
   margin: 5% auto;
-  height: auto;
+  height: 440px;
+}
+
+.indicators {
+  top: 109%;
+}
+
+.inner {
+  padding-left: 2.5%;
+}
+
+.itemsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
 }
 
 /* Por que comercializar? */
