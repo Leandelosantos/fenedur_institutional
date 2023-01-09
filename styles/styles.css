@@ -90,7 +90,7 @@ body {
 
 .logoFenedur {
   position: absolute;
-  top: 9%;
+  top: 5%;
   left: 6%;
 }
 .logoFenedur img {
@@ -240,7 +240,7 @@ body {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  margin: 5% 0 5% 0;
+  margin: 5% auto;
   gap: 1%;
 }
 
@@ -460,4 +460,247 @@ body {
 .adress span {
   font-weight: 500;
   color: #b1aba8;
+}
+
+/* Quienes Somos View */
+
+/* Header / Navbar */
+.navWho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  background-color: #503f39;
+  width: 100%;
+  height: 205px;
+}
+/* Quienes somos */
+
+.whoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 65%;
+  margin: auto;
+  text-align: center;
+}
+
+.whoContainer h1 {
+  margin: 8% 0 3% 0;
+}
+
+.whoContainer h2 {
+  font-size: 29px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.whoContainer img {
+  width: 76%;
+  margin: 7% auto;
+}
+
+.whoContainer h2 span {
+  font-weight: 600;
+}
+
+.ourProducts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 65%;
+  margin: auto;
+  text-align: start;
+  font-size: 24px;
+  gap: 20px;
+}
+
+.ourProducts p {
+  margin: 0 3% 0 3%;
+}
+
+.ourProducts p span {
+  font-weight: 600;
+}
+
+/* Slider marcas */
+
+.sliderBrands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 60%;
+  background-color: #766e65;
+  margin: 5% auto;
+  height: auto;
+}
+
+/* Por que comercializar? */
+
+.whySection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  margin: auto;
+  width: 65%;
+}
+
+.whyHeader {
+  text-align: center;
+  margin: auto;
+}
+
+.whyHeader h2 {
+  width: 70%;
+  margin: 5% auto;
+  font-size: 31px;
+  font-weight: 400;
+}
+
+.whyHeader img {
+  width: 47%;
+}
+
+.whyHeader h3 {
+  width: 81%;
+  margin: 5% auto;
+  font-size: 26px;
+}
+
+.whyHeader p {
+  width: 88%;
+  margin: auto;
+  color: #b0b0b0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* De Uruguay al mundo */
+
+.fromUruguay {
+  text-align: center;
+  width: 100%;
+  margin: 7% auto;
+}
+
+.fromUruguay h2 {
+  margin: 2% auto;
+  font-size: 29px;
+}
+
+.fromUruguay h4 {
+  margin: 2% auto;
+  width: 90%;
+}
+
+.fromUruguay img {
+  width: 50%;
+}
+
+.fromUruguay .firstP {
+  width: 86%;
+  font-size: 23px;
+  color: #b0b0b0;
+  margin: 2.5% auto;
+  font-weight: 500;
+}
+
+.fromUruguay p {
+  font-size: 22px;
+  font-weight: 500;
+  width: 84%;
+  margin: 2.5% auto;
+  letter-spacing: 0.5px;
+}
+
+.fromUruguay p span {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+/* Mision Vision */
+
+/* Mision */
+.misionContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  margin: auto;
+  width: 100%;
+  gap: 7%;
+}
+
+.misionContainer img {
+  width: 26%;
+  position: relative;
+  top: 41px;
+}
+
+.mision {
+  font-size: 24px;
+  width: 48%;
+  font-weight: 500;
+}
+
+.mision h2 {
+  color: #d1d1d1;
+  font-size: 80px;
+  font-weight: 300;
+}
+
+/* Vision */
+
+.visionContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  margin: 5% 0 2.5% 6%;
+  width: 100%;
+  gap: 18%;
+}
+
+.visionContainer img {
+  width: 20%;
+}
+
+.vision {
+  font-size: 24px;
+  width: 36%;
+  font-weight: 500;
+}
+
+.vision h2 {
+  color: #d1d1d1;
+  font-size: 80px;
+  font-weight: 300;
+}
+
+/* Valores */
+
+.valores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  margin: 2.5% auto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.valores h2 {
+  font-size: 90px;
+  color: #d1d1d1;
+  font-weight: 300;
+}
+
+.valores p:nth-child(even) {
+  color: #d1d1d1;
+  font-weight: 500;
 }
