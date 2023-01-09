@@ -466,7 +466,9 @@ body {
   justify-content: center;
   align-items: center;
   flex-flow: row nowrap;
-  background-color: #503f39;
+  /* background-image: url(../assets/img/headerFenedur.jpg);
+  background-size: cover; */
+  background-color: #766e65;
   width: 100%;
   height: 205px;
 }
