@@ -845,3 +845,92 @@ body {
   gap: 4%;
   width: 70%;
 }
+
+/* Mercado Paises */
+
+.countryContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 55%;
+  margin: 5% auto 3%;
+  text-align: center;
+}
+
+.countryContainer h1 {
+  font-size: 42px;
+  font-weight: 500;
+  margin-bottom: 6%;
+}
+
+.countryContainer h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 2%;
+}
+
+.countryContainer p {
+  font-size: 24px;
+  margin: 0 auto 4%;
+  color: #b0b0b0;
+  line-height: 35px;
+}
+
+.countryContainer p:nth-child(n + 4) {
+  width: 60%;
+  font-size: 24px;
+  margin: 2% auto;
+  color: #766e65;
+  line-height: 10px;
+  font-weight: 500;
+}
+
+.contactLogos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-flow: row nowrap;
+  width: 55%;
+}
+
+.logoContainer {
+  text-align: center;
+  line-height: 60px;
+}
+
+.contactLogos img {
+  width: 11%;
+  text-align: center;
+}
+
+.logoContainer p {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.headerBrandsUru {
+  width: 35%;
+}
+
+.gridBrands {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 8px;
+  width: 60%;
+  margin: 3% auto;
+}
+
+.cardBrand {
+  width: 90%;
+  height: 300px;
+  background-color: #e1dfdd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  margin: auto;
+}
