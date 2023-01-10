@@ -4,80 +4,399 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/d7c4c59e1e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- reCaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title>Nuestros Mercados | Fenedur</title>
   </head>
   <body>
     <!-- Navbar -->
-    <nav>
-      <div>
-        <!-- logo fenedur -->
-        <div>
-          <!-- boton idiomas -->
-          <!-- menu hamb -->
+    <header>
+      <nav class="navWho">
+        <div class="logoFenedur">
+          <a href="../index.html"
+            ><img src="../assets/img/logoFenedurNav.png" alt="logoFenedur"
+          /></a>
         </div>
-      </div>
-    </nav>
+        <div>
+          <div class="lenguaje">
+            <button>
+              <a href="#">Español</a
+              ><i class="fa-sharp fa-solid fa-chevron-down"></i>
+            </button>
+          </div>
+          <div class="hamburguer">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
     <!-- Nuestros Mercados -->
     <article>
       <main>
         <section>
-          <img src="" alt="Nuestros mercados" />
-          <div>
-            <h1>
-              Somos especialistas en desarrollar y comercializar productos
-              adhesivos
-            </h1>
-            <p>
-              que brindan soluciones prácticas para la reparación de objetos y
-              contribuyen a la realización de diversas tareas de mantenimiento,
-              creación, restauración y mejoras en el hogar.
-            </p>
+          <h1 class="shadowHeader">Nuestros Mercados</h1>
+          <div class="ourMarkets">
+            <div class="ourMarketsHeader"></div>
+            <div class="mainText">
+              <h2>
+                Somos especialistas en desarrollar y comercializar productos
+                adhesivos
+              </h2>
+              <p>
+                que brindan soluciones prácticas para la reparación de objetos y
+                contribuyen a la realización de diversas tareas de
+                mantenimiento, creación, restauración y mejoras en el hogar.
+              </p>
+            </div>
           </div>
         </section>
         <!--Mercados en paises -->
         <section>
-          <div>Elegí el mercado de tu interés</div>
-          <div>
-            <!-- grid con paises -->
+          <div class="selectContainer">Elegí el mercado de tu interés</div>
+          <div class="gridFlags">
+            <div class="flags">
+              <a href="#"
+                ><img src="../assets/img/banderas/1bolivia.png" alt="Bolivia" />
+                <p>Bolivia</p></a
+              >
+            </div>
+            <div class="flags">
+              <a href="#"
+                ><img src="../assets/img/banderas/2españa.png" alt="España" />
+                <p>España</p></a
+              >
+            </div>
+            <div class="flags">
+              <a href="#"
+                ><img
+                  src="../assets/img/banderas/3paraguay.png"
+                  alt="Paraguay"
+                />
+                <p>Paraguay</p></a
+              >
+            </div>
+            <div class="flags">
+              <a href="#"
+                ><img src="../assets/img/banderas/4brasil.png" alt="Brasil" />
+                <p>Brasil</p></a
+              >
+            </div>
+            <div class="flags">
+              <a href="#"
+                ><img
+                  src="../assets/img/banderas/5guatemala.png"
+                  alt="Guatemala"
+                />
+                <p>Guatemala</p></a
+              >
+            </div>
+            <div class="flags">
+              <a href="#"
+                ><img src="../assets/img/banderas/6polonia.png" alt="Polonia" />
+                <p>Polonia</p></a
+              >
+            </div>
+            <div class="flags">
+              <a href="#"
+                ><img
+                  src="../assets/img/banderas/7bulgaria.png"
+                  alt="Bulgaria"
+                />
+                <p>Bulgaria</p></a
+              >
+            </div>
+            <div class="flags">
+              <a href="#"
+                ><img src="../assets/img/banderas/8israel.png" alt="Israel" />
+                <p>Israel</p></a
+              >
+            </div>
+            <div class="flags">
+              <a href="#"
+                ><img src="../assets/img/banderas/9rumania.png" alt="Rumania" />
+                <p>Rumania</p></a
+              >
+            </div>
+            <div class="flags">
+              <a href="#"
+                ><img src="../assets/img/banderas/10chile.png" alt="Chile" />
+                <p>Chile</p></a
+              >
+            </div>
+            <div class="flags">
+              <a href="#"
+                ><img src="../assets/img/banderas/11italia.png" alt="Italia" />
+                <p>Italia</p></a
+              >
+            </div>
+            <div class="flags">
+              <a href="#"
+                ><img src="../assets/img/banderas/12rusia.png" alt="Rusia" />
+                <p>Rusia</p></a
+              >
+            </div>
+            <div class="flags">
+              <a href="#"
+                ><img
+                  src="../assets/img/banderas/13costarica.png"
+                  alt="Costa Rica"
+                />
+                <p>Costa Rica</p></a
+              >
+            </div>
+            <div class="flags">
+              <a href="#"
+                ><img
+                  src="../assets/img/banderas/14macedonia.png"
+                  alt="Macedonia"
+                />
+                <p>Macedonia</p></a
+              >
+            </div>
+            <div class="flags">
+              <a href="#"
+                ><img
+                  src="../assets/img/banderas/15uruguay.png"
+                  alt="Uruguay"
+                />
+                <p>Uruguay</p></a
+              >
+            </div>
+            <div class="flags">
+              <a href="#"
+                ><img
+                  src="../assets/img/banderas/16elsalvador.png"
+                  alt="El Salvador"
+                />
+                <p>El Salvador</p></a
+              >
+            </div>
+            <div class="flags">
+              <a href="#"
+                ><img
+                  src="../assets/img/banderas/17nicaragua.png"
+                  alt="Nicaragua"
+                />
+                <p>Nicaragua</p></a
+              >
+            </div>
           </div>
         </section>
       </main>
 
-      <!-- Links de info -->
-      <div>
-        <div>
-          <!-- svg -->
-          Conocé <a href="#">Nuestras Marcas</a>
-          <!-- flecha -->
+      <!-- links de info -->
+      <div class="linksContainer infoMarketsContainer">
+        <div class="link linkMarkets">
+          <div class="linkText linkTextMarkets">
+            <img src="../assets/img/caja.jpg" alt="Nuestras Marcas" />
+            <a href="#"><span>Conocé</span> Nuestras Marcas</a>
+            <div class="imgContainer">
+              <img src="../assets/svg/next.png" alt="arrow" />
+            </div>
+          </div>
         </div>
-        <div>
-          <!-- svg -->
-          Descargá <a href="#">Nuestro Catálogo</a>
-          <!-- logo descarga -->
+        <div class="link black linkMarkets">
+          <div class="linkText whiteText linkTextMarkets">
+            <img src="../assets/img/catalogo.jpg" alt="catalogo" />
+            <a href="#"><span>Descargá</span> Nuestro Catálogo</a>
+            <div class="download">
+              <svg
+                fill="#ffffff"
+                viewBox="-2.4 -2.4 28.80 28.80"
+                id="download-alt-4"
+                data-name="Flat Line"
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon flat-line"
+                stroke="#ffffff"
+                transform="matrix(1, 0, 0, 1, 0, 0)"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <line
+                    id="primary"
+                    x1="12"
+                    y1="3"
+                    x2="12"
+                    y2="16"
+                    style="
+                      fill: none;
+                      stroke: #ffffff;
+                      stroke-linecap: round;
+                      stroke-linejoin: round;
+                      stroke-width: 1.008;
+                    "
+                  ></line>
+                  <polyline
+                    id="primary-2"
+                    data-name="primary"
+                    points="8 12 12 16 16 12"
+                    style="
+                      fill: none;
+                      stroke: #ffffff;
+                      stroke-linecap: round;
+                      stroke-linejoin: round;
+                      stroke-width: 1.008;
+                    "
+                  ></polyline>
+                  <path
+                    id="primary-3"
+                    data-name="primary"
+                    d="M20,16v4a1.08,1.08,0,0,1-1.14,1H5.14A1.08,1.08,0,0,1,4,20V16"
+                    style="
+                      fill: none;
+                      stroke: #ffffff;
+                      stroke-linecap: round;
+                      stroke-linejoin: round;
+                      stroke-width: 1.008;
+                    "
+                  ></path>
+                </g>
+              </svg>
+            </div>
+          </div>
         </div>
       </div>
+
       <!-- Guarda de productos -->
-      <div>
-        <img src="" alt="Guarda Productos" />
+      <div class="products">
+        <img src="../assets/img/guarda1.jpg" alt="Guarda Productos" />
+        <img src="../assets/img/guarda2.jpg" alt="Guarda Productos" />
       </div>
     </article>
+
     <!-- Footer -->
     <footer>
-      <div>
-        <h3>Contactate con nosotros</h3>
-        <p>Para más información comunicate con nosotros.</p>
-        <div>
-          <!-- formulario -->
+      <div class="footerContainer">
+        <div class="h_footer-container">
+          <h3>Contactate con nosotros</h3>
+          <p>Para más información comunicate con nosotros.</p>
         </div>
-        <div>
-          <img src="" alt="Logo Fenedur" />
-          <p>Fenedur - Todos los derechos reservados</p>
-          <p>
-            Juncal 1363. 11000, Montevideo, Uruguay. Tel: (+598) 2914 8000.
-            Email: atencionalconsumidor@fenedur.com www.fenedur.com
-          </p>
+        <div class="formContainer">
+          <form action="">
+            <div class="row row-cols-2">
+              <div class="mb-3 col-md-5">
+                <label for="Nombre y Apellido" class="form-label"
+                  >Nombre y Apellido</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Nombre y Apellido"
+                />
+              </div>
+              <div class="mb-3 ms-5 ps-3 col-md-2">
+                <label for="telefono" class="form-label">Teléfono</label>
+                <select
+                  class="form-select"
+                  aria-label="Default select example"
+                  id="telefono"
+                >
+                  <option selected>Celular</option>
+                  <option value="1">Teléfono fijo</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="mb-3 col-md-1">
+                <label for="Prefijo" class="form-label">Prefijo</label>
+                <input type="text" class="form-control" id="Prefijo" />
+              </div>
+              <div class="mb-3 col-md-2">
+                <label for="Numero" class="form-label">Número</label>
+                <input type="text" class="form-control" id="Numero" />
+              </div>
+            </div>
+            <div class="row row-cols-2">
+              <div class="col-md-6 pe-0">
+                <div class="mb-3 col-md-6 inputSelect">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Motivo de consulta</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="mb-3 col-md-6 inputSelect">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Selección de país</option>
+                    <option value="1">Uruguay</option>
+                    <option value="2">Argentina</option>
+                    <option value="3">Bolivia</option>
+                    <option value="3">Paraguay</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="mb-3 col-md-6 textareaForm">
+                <label for="consulta" class="form-label">Consulta</label>
+                <textarea
+                  class="form-control"
+                  id="consulta"
+                  rows="3"
+                ></textarea>
+              </div>
+            </div>
+            <div class="row row-cols-2">
+              <div class="mb-3 col-md-5">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="text" class="form-control" id="email" />
+              </div>
+              <div
+                class="g-recaptcha captcha"
+                data-sitekey="6LfpX98jAAAAABoLqTMcIt5U8vZWf3zMpoTxxwXP"
+              ></div>
+            </div>
+            <div class="btnSubmit">
+              <button type="button" class="btn btn-secondary">ENVIAR</button>
+            </div>
+          </form>
+        </div>
+        <div class="dataFenedur">
+          <div class="logoContainer">
+            <img src="../assets/img/Logo Fenedur.png" alt="Logo Fenedur" />
+            <p>Fenedur&#174; - Todos los derechos reservados</p>
+          </div>
+          <div class="adress">
+            <p>Juncal 1363. 11000, Montevideo, Uruguay.</p>
+            <p>Tel: (+598) 2914 8000.</p>
+            <p>Email: <span>atencionalconsumidor@fenedur.com</span></p>
+            <p><span>www.fenedur.com</span></p>
+          </div>
         </div>
       </div>
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./Js/carousel.js"></script>
   </body>
 </html>

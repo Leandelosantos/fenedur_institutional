@@ -728,3 +728,120 @@ body {
   color: #d1d1d1;
   font-weight: 500;
 }
+
+/* Nuestros Mercados View */
+.shadowHeader {
+  margin: 5% auto 0;
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  top: 26%;
+  font-size: 44px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 0px 17px 50px white;
+}
+
+.ourMarkets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 100%;
+  margin: auto;
+}
+
+.ourMarketsHeader {
+  background-image: url(../assets/img/planisferio.jpg);
+  background-size: cover;
+  width: 122%;
+  text-align: center;
+  margin-top: 3.7%;
+  height: 640px;
+}
+
+.mainText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 1% auto;
+  flex-flow: column nowrap;
+  text-align: center;
+}
+
+.mainText h2 {
+  width: 70%;
+  margin-bottom: 3%;
+}
+
+.mainText p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #b0b0b0;
+}
+
+.selectContainer {
+  width: 26%;
+  background-color: #766e65;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-size: 21px;
+  margin: auto;
+  padding: 0.5%;
+}
+
+.gridFlags {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 10px;
+  width: 58%;
+  margin: 5% auto;
+  justify-items: center;
+}
+
+.flags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.flags a {
+  text-decoration: none;
+  width: 70%;
+  text-align: start;
+  color: #766e65;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.flags p {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* Links info Mercados */
+
+.infoMarketsContainer {
+  gap: 6%;
+}
+
+.linksContainer .linkMarkets {
+  width: 35%;
+  height: 7.5rem;
+}
+
+.linksContainer .linkTextMarkets {
+  margin: 0;
+  gap: 4%;
+  width: 70%;
+}
