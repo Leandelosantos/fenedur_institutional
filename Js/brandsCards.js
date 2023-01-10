@@ -1,11 +1,11 @@
 const brands = [
   {
     img: "../assets/img/cuadrados/fastix.jpg",
-    name: "Fastix",
+    name: "Fastix &#174;",
   },
   {
     img: "../assets/img/cuadrados/laGotita.jpg",
-    name: "La Gotita",
+    name: "La Gotita &#174;",
   },
 ];
 
@@ -16,11 +16,13 @@ brands.forEach((brand) => {
         <div class="cardBrand">
             <img src="${brand.img}" alt="fastix">
             ${brand.name}
-            <a href="#">
-                <button>Ir a web</button>
-            </a>
-            <a href="#">
-                <button>Ver Marca</button>
-            </a>
+            <div class="buttonsContainer">
+              <a href="#">
+                  <button class="goWeb">Ir a web</button>
+              </a>
+              <a href="#">
+                  <button class="goBrand">Ver Marca</button>
+              </a>
+            </div>
         </div>`;
 });

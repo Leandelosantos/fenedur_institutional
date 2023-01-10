@@ -926,11 +926,55 @@ body {
 
 .cardBrand {
   width: 90%;
-  height: 300px;
-  background-color: #e1dfdd;
+  height: 400px;
+  background-color: #e9e8e6;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-flow: column nowrap;
   margin: auto;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.buttonsContainer {
+  width: 40%;
+}
+
+.cardBrand .goWeb {
+  background-color: #766e65;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  padding: 1%;
+  border-radius: 24px;
+  font-weight: 500;
+}
+
+.cardBrand .goBrand {
+  background-color: white;
+  width: 100%;
+  color: #766e65;
+  font-size: 14px;
+  padding: 1%;
+  border-radius: 24px;
+  font-weight: 500;
+}
+
+.back-markets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 10%;
+}
+
+.back-markets button {
+  background-color: #766e65;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 24px;
+  width: 18%;
+  padding: 5px;
 }
