@@ -39,7 +39,43 @@
             </button>
           </div>
           <div class="hamburguer">
-            <i class="fa-sharp fa-solid fa-bars"></i>
+            <button
+              role="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#menu"
+              aria-expanded="false"
+              aria-controls="menu"
+            >
+              <i class="fa-sharp fa-solid fa-bars"></i>
+            </button>
+
+            <div class="collapse menu" id="menu">
+              <ul>
+                <li>
+                  <a class="menu-item" href="./quienesSomos.html"
+                    >QUIENES SOMOS</a
+                  >
+                </li>
+                <hr />
+                <li>
+                  <a class="menu-item" href="./marcasYProductos.html"
+                    >MARCAS Y PRODUCTOS</a
+                  >
+                </li>
+                <hr />
+                <li>
+                  <a class="menu-item" href="./nuestrosMercados.html"
+                    >MERCADOS</a
+                  >
+                </li>
+                <hr />
+                <li>
+                  <a class="menu-item" href="./novedades.html">NOVEDADES</a>
+                </li>
+                <hr />
+                <li><a class="menu-item" href="#contacto">CONTACTO</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
@@ -48,17 +84,20 @@
     <article>
       <main>
         <section>
-          <h1>Marcas y productos</h1>
-          <h3>
-            <span
-              >Nos dedicamos al desarrollo, producción y comercialización de
-              pegamentos de alta calidad,</span
-            >
-            con marcas reconocidas a nivel mundial y mas de 30 años en el
-            mercado, con presencia en 17 países.
-          </h3>
-          <div>Elegí la marca de tu interés</div>
-          <!-- Grid de marcas -->
+          <div class="brands-products">
+            <h1>Marcas y productos</h1>
+            <p>
+              Nos dedicamos al desarrollo, producción y comercialización de
+              pegamentos de alta calidad,
+            </p>
+            <p>
+              con marcas reconocidas a nivel mundial y mas de 30 años en el
+              mercado, con presencia en 17 países.
+            </p>
+          </div>
+
+          <div class="selectContainer">Elegí la marca de tu interés</div>
+          <div class="gridBrands"></div>
         </section>
       </main>
 

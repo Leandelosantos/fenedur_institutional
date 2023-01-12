@@ -1,4 +1,4 @@
-const brands = [
+const brandsUru = [
   {
     img: "../assets/img/cuadrados/fastix.jpg",
     name: "Fastix &#174;",
@@ -9,12 +9,12 @@ const brands = [
   },
 ];
 
-const gridBrands = document.querySelector(".gridBrands");
+const gridBrandsUru = document.querySelector(".gridBrandsUru");
 
-brands.forEach((brand) => {
-  gridBrands.innerHTML += `
+brandsUru.forEach((brand) => {
+  gridBrandsUru.innerHTML += `
         <div class="cardBrand">
-            <img src="${brand.img}" alt="fastix">
+            <img src="${brand.img}" alt="${brand.name}">
             ${brand.name}
             <div class="buttonsContainer">
               <a href="#">

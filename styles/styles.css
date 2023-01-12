@@ -153,6 +153,42 @@ body {
   top: 9%;
   font-size: 40px;
   color: #fff;
+  width: 5%;
+}
+
+.hamburguer button {
+  background-color: transparent;
+  color: white;
+}
+
+.menu {
+  background-color: white;
+  position: absolute;
+  right: 50%;
+  width: 500%;
+  z-index: 9999;
+}
+
+.menu ul hr {
+  width: 90%;
+  color: #766e65;
+  margin: 0;
+}
+
+.menu ul li {
+  width: 80%;
+  margin: auto;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #766e65;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.menu ul li a:hover {
+  font-weight: 700;
 }
 
 /* Boton Conoce Mas */
@@ -914,7 +950,7 @@ body {
   width: 35%;
 }
 
-.gridBrands {
+.gridBrandsUru {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -977,4 +1013,128 @@ body {
   border-radius: 24px;
   width: 18%;
   padding: 5px;
+}
+
+/* Marcas y Productos */
+
+.brands-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  margin: 5% auto 4%;
+  width: 60%;
+  text-align: center;
+}
+
+.brands-products h1 {
+  margin-bottom: 1%;
+  font-weight: 500;
+}
+
+.brands-products p:nth-child(2) {
+  font-weight: 500;
+  margin: auto;
+  font-size: 26px;
+}
+
+.brands-products p:nth-child(3) {
+  font-weight: 400;
+  font-size: 24px;
+  margin: auto;
+}
+
+/* Producto View */
+
+.productSection h2 {
+  font-size: 44px;
+  margin: 6% auto 3%;
+  text-align: center;
+}
+
+.productContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 70%;
+  margin: auto;
+}
+
+/* Novedades View */
+
+.headerNewsContainer {
+  width: 100%;
+  text-align: center;
+  margin: 5% auto 4%;
+}
+
+.headerNewsContainer h1 {
+  font-size: 44px;
+}
+
+.headerNewsContainer h3 {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+hr {
+  width: 50%;
+  margin: auto;
+  border-top: 1px solid;
+  opacity: 1;
+}
+
+.newsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  margin: 5% auto;
+  width: 100%;
+}
+
+.newsContainer img {
+  width: 30%;
+  position: relative;
+}
+
+.newsDiv {
+  width: 30%;
+}
+
+.newsDiv p {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.newsDiv h2 {
+  width: 94%;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 2% 0;
+}
+
+.newsDiv p:nth-child(4) {
+  font-size: 18px;
+  width: 89%;
+  margin: 1% 0 6%;
+}
+
+.newsDiv button {
+  width: 31%;
+  background-color: #766e65;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 1%;
+  border-radius: 28px;
+}
+
+.newsDiv button a {
+  text-decoration: none;
+  width: 100%;
+  color: white;
 }
