@@ -946,11 +946,11 @@ body {
   font-weight: 500;
 }
 
-.headerBrandsUru {
+.headerBrands {
   width: 35%;
 }
 
-.gridBrandsUru {
+.gridBrands {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
