@@ -39,7 +39,43 @@
             </button>
           </div>
           <div class="hamburguer">
-            <i class="fa-sharp fa-solid fa-bars"></i>
+            <button
+              role="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#menu"
+              aria-expanded="false"
+              aria-controls="menu"
+            >
+              <i class="fa-sharp fa-solid fa-bars"></i>
+            </button>
+
+            <div class="collapse menu" id="menu">
+              <ul>
+                <li>
+                  <a class="menu-item" href="./mercadoPais.html"
+                    >QUIENES SOMOS</a
+                  >
+                </li>
+                <hr />
+                <li>
+                  <a class="menu-item" href="./marcasYProductos.html"
+                    >MARCAS Y PRODUCTOS</a
+                  >
+                </li>
+                <hr />
+                <li>
+                  <a class="menu-item" href="./nuestrosMercados.html"
+                    >MERCADOS</a
+                  >
+                </li>
+                <hr />
+                <li>
+                  <a class="menu-item" href="./novedades.html">NOVEDADES</a>
+                </li>
+                <hr />
+                <li><a class="menu-item" href="#contacto">CONTACTO</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
@@ -158,7 +194,7 @@
     </article>
 
     <!-- Footer -->
-    <footer>
+    <footer id="contacto">
       <div class="footerContainer">
         <div class="h_footer-container">
           <h3>Contactate con nosotros</h3>
