@@ -950,7 +950,7 @@ body {
   width: 35%;
 }
 
-.gridBrands {
+.gridCards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -1015,6 +1015,12 @@ body {
   padding: 5px;
 }
 
+.back-markets button a {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
+
 /* Marcas y Productos */
 
 .brands-products {
@@ -1042,6 +1048,20 @@ body {
   font-weight: 400;
   font-size: 24px;
   margin: auto;
+}
+
+.gridBrands {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  width: 60%;
+  margin: 3% auto;
+}
+
+.oneBrand img {
+  width: 100%;
 }
 
 /* Producto View */

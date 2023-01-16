@@ -540,7 +540,6 @@ const brandsInfo = [
 const countryContainer = document.querySelector(".countryContainer");
 const telCountry = document.getElementById("telCountry");
 const emailCountry = document.getElementById("emailCountry");
-
 const urlParams = new URLSearchParams(window.location.search);
 const myParam = urlParams.get("site");
 const site = brandsInfo.find((element) => element.id === myParam);
@@ -561,11 +560,15 @@ countryContainer.innerHTML += `
 telCountry.innerText += `${site.info.tel}`;
 emailCountry.innerText += `${site.info.email}`;
 
+const selectContainer = document.querySelector(".selectContainer");
+
+selectContainer.innerHTML += `Estas son nuestras marcas en ${site.id}`;
+
 /* Grid de marcas */
-const gridBrands = document.querySelector(".gridBrands");
+const gridCards = document.querySelector(".gridCards");
 
 site.marcas.map((brand) => {
-  gridBrands.innerHTML += `
+  gridCards.innerHTML += `
         <div class="cardBrand">
             <img src="${brand.img}" alt="${brand.name}">
             ${brand.name}
