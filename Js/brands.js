@@ -70,10 +70,24 @@ const ourBrands = [
 ];
 
 const gridBrands = document.querySelector(".gridBrands");
+const productContainer = document.querySelector(".productContainer");
 
-ourBrands.forEach((brand) => {
+ourBrands.map((brand) => {
   gridBrands.innerHTML += `
       <div class="oneBrand">
-        <a href="../views/Marcas-y-Productos/producto.html"><img src="${brand.img}" alt="${brand.name}"></a> 
+        <a href="../views/Marcas-y-Productos/producto.html?brand=${brand.name}"><img src="${brand.img}" alt="${brand.name}"></a> 
       </div>`;
 });
+
+/* siteBrands.map(() => {
+  productContainer.innerHTML += `
+        <img src="${siteBrands.imgBig}" alt="${siteBrands.name}">
+        <h2>${siteBrands.name}&#174; ${siteBrands.boldDesc}</h2>
+        <p>Con ${siteBrands.name}&#174; ${siteBrands.desc1}</p>
+        <p>${siteBrands.desc2}</p>
+        <div class="brandIn">
+            <h3>${siteBrands.name}&#174; se comercializa en los principales mercados del mundo.</h3>
+            <div class="chooseCountry">Seleccioná un país para ver mas información</div>
+            <div class="brandCountry">Paises</div>
+        </div>`;
+}); */

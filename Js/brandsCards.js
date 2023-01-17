@@ -544,7 +544,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const myParam = urlParams.get("site");
 const site = brandsInfo.find((element) => element.id === myParam);
 
-/* Info paises Dom */
+/* Info de pais y sus marcas */
 
 countryContainer.innerHTML += `
         <h2>${site.id}</h2>
