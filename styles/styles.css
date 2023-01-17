@@ -1001,7 +1001,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin: 4% auto 10%;
   gap: 10%;
 }
 
@@ -1053,7 +1053,7 @@ body {
 .gridBrands {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: auto;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   width: 60%;
@@ -1081,6 +1081,66 @@ body {
   margin: auto;
 }
 
+.productContainer h2 {
+  font-size: 25px;
+  font-weight: 600;
+  width: 80%;
+}
+
+.productContainer p {
+  font-size: 25px;
+  text-align: center;
+  width: 85%;
+}
+
+.brandIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 85%;
+  background-color: #e9e8e6;
+  text-align: center;
+}
+
+.brandIn h3 {
+  font-size: 26px;
+  width: 60%;
+  margin: 7% auto 4%;
+}
+
+.chooseCountry {
+  width: 65%;
+  color: white;
+  font-size: 22px;
+  background-color: #766e65;
+  font-weight: 500;
+  padding: 0.3%;
+}
+
+.gridBrandCountry {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  width: 80%;
+  margin: 8% 0;
+}
+
+.brandCountry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  margin: 6% 0;
+}
+
+.brandCountry p {
+  margin: 0 5%;
+  text-align: start;
+  font-weight: 500;
+}
 /* Novedades View */
 
 .headerNewsContainer {
