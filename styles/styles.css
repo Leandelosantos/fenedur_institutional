@@ -1136,6 +1136,16 @@ body {
   margin: 6% 0;
 }
 
+.brandCountry a {
+  text-decoration: none;
+  display: flex;
+  width: 100%;
+  color: #766e65;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
 .brandCountry p {
   margin: 0 5%;
   text-align: start;

@@ -142,38 +142,6 @@ const products = [
     ],
   },
   {
-    name: "Kanynua",
-    img: "../../assets/img/marcas/kanynua.png",
-    imgBig: "../../assets/img/marcas/kanynua.png",
-    boldDesc: "lorem",
-    desc1: "lorem",
-    desc2: "lorem",
-  },
-  {
-    name: "Picatura",
-    img: "../../assets/img/marcas/picatura.png",
-    imgBig: "../../assets/img/marcas/picatura.png",
-    boldDesc: "lorem",
-    desc1: "lorem",
-    desc2: "lorem",
-  },
-  {
-    name: "Kropelka",
-    img: "../../assets/img/marcas/kropelka.png",
-    imgBig: "../../assets/img/marcas/kropelka.png",
-    boldDesc: "lorem",
-    desc1: "lorem",
-    desc2: "lorem",
-  },
-  {
-    name: "Kanka",
-    img: "../../assets/img/marcas/kanka.png",
-    imgBig: "../../assets/img/marcas/kanka.png",
-    boldDesc: "lorem",
-    desc1: "lorem",
-    desc2: "lorem",
-  },
-  {
     name: "Eccole",
     img: "../../assets/img/marcas/eccole.png",
     imgBig: "../../assets/img/marcas/eccole.png",
@@ -211,22 +179,6 @@ const products = [
     ],
   },
   {
-    name: "Tadam",
-    img: "../../assets/img/marcas/tadam.png",
-    imgBig: "../../assets/img/marcas/tadam.png",
-    boldDesc: "lorem",
-    desc1: "lorem",
-    desc2: "lorem",
-  },
-  {
-    name: "Tacpac",
-    img: "../../assets/img/marcas/tac-pac.png",
-    imgBig: "../../assets/img/marcas/tac-pac.png",
-    boldDesc: "lorem",
-    desc1: "lorem",
-    desc2: "lorem",
-  },
-  {
     name: "ElPulpito",
     img: "../../assets/img/marcas/elPulpito.png",
     imgBig: "../../assets/img/marcas/elPulpito.png",
@@ -254,14 +206,6 @@ const products = [
         pais: "Uruguay",
       },
     ],
-  },
-  {
-    name: "Osmiorniczka",
-    img: "../../assets/img/marcas/osmio.png",
-    imgBig: "../../assets/img/marcas/osmio.png",
-    boldDesc: "lorem",
-    desc1: "lorem",
-    desc2: "lorem",
   },
   {
     name: "Fastix",
@@ -304,7 +248,8 @@ const products = [
     name: "Poximix",
     img: "../../assets/img/marcas/poximix.png",
     imgBig: "../../assets/img/marcas/poximix.png",
-    boldDesc: "lorem",
+    boldDesc:
+      "es un producto a base de yeso, de color blanco, muy fácil de preparar y aplicar, ideal para reparar grietas y agujeros en paredes y techos en el interior del hogar.",
     paises: [
       {
         flag: "../../assets/img/banderas/1bolivia.png",
@@ -393,25 +338,51 @@ const products = [
     name: "Unipox",
     img: "../../assets/img/marcas/unipox.png",
     imgBig: "../../assets/img/marcas/unipox.png",
-    boldDesc: "lorem",
-    desc1: "lorem",
-    desc2: "lorem",
+    boldDesc:
+      "es un adhesivo universal multipropósito resistente. Es ideal para manualidades y artesanías y pega todo tipo de materiales.",
+    comer: "se vende con èxito en Uruguay.",
+    paises: [
+      {
+        flag: "../../assets/img/banderas/15uruguay.png",
+        pais: "Uruguay",
+      },
+    ],
   },
   {
     name: "Voligoma",
     img: "../../assets/img/marcas/voligoma.png",
     imgBig: "../../assets/img/marcas/voligoma.png",
-    boldDesc: "lorem",
-    desc1: "lorem",
-    desc2: "lorem",
+    boldDesc:
+      "es el adhesivo escolar más elegido por los chicos que pega papel, cartón y cartulina. Es muy fácil de maniobrar gracias a su formato. Viene con una almohadilla aplicadora que permite regular la dosificación, asegurando un pegado prolijo. No arruga el papel, no es tóxico, no contiene solventes y es fácilmente lavable.",
+    comer: "se vende con éxito en Bolivia, Costa Rica y Uruguay",
+    paises: [
+      {
+        flag: "../../assets/img/banderas/1bolivia.png",
+        pais: "Bolivia",
+      },
+      {
+        flag: "../../assets/img/banderas/13costarica.png",
+        pais: "Costa Rica",
+      },
+      {
+        flag: "../../assets/img/banderas/15uruguay.png",
+        pais: "Uruguay",
+      },
+    ],
   },
   {
     name: "Novopren",
     img: "../../assets/img/marcas/novopren.png",
     imgBig: "../../assets/img/marcas/novopren.png",
-    boldDesc: "lorem",
-    desc1: "lorem",
-    desc2: "lorem",
+    boldDesc:
+      "es un adhesivo de contacto clásico que se usa para la madera y marroquinería. Es indicado su uso para el pegado de cuero, goma, madera, papel, cerámica, metales, burletes, suelas de zapatos, etc.",
+    comer: "se vende con éxito en Uruguay",
+    paises: [
+      {
+        flag: "../../assets/img/banderas/15uruguay.png",
+        pais: "Uruguay",
+      },
+    ],
   },
 ];
 
@@ -431,9 +402,11 @@ productContainer.innerHTML += `
             : ""
         }
         <div class="brandIn">
-            <h3>${
-              siteBrand.name
-            }&#174; se comercializa en los principales mercados del mundo.</h3>
+            <h3>${siteBrand.name}&#174; ${
+  siteBrand.comer
+    ? siteBrand.comer
+    : "se comercializa en los principales mercados del mundo."
+}</h3>
             <div class="chooseCountry">Seleccioná un país para ver mas información</div>
             <div class="gridBrandCountry"></div>
         </div>`;
@@ -441,7 +414,7 @@ productContainer.innerHTML += `
 const gridBrandCountry = document.querySelector(".gridBrandCountry");
 siteBrand.paises.map((country) => {
   gridBrandCountry.innerHTML += `<div class="brandCountry">
-  <img src="${country.flag}" alt="${country.pais}">
-  <p>${country.pais}</p>
+  <a href=""><img src="${country.flag}" alt="${country.pais}">
+  <p>${country.pais}</p></a>
   </div>`;
 });
