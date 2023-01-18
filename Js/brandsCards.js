@@ -438,10 +438,8 @@ const brandsInfo = [
   {
     id: "Rusia",
     info: {
-      distribuidor: "",
-      tel: "",
-      dir: "",
-      email: "",
+      distribuidor: "UNITED DISTRIBUTION LLC, 2A",
+      dir: "Odoevskogo Proezd, oficina 201.",
     },
     marcas: [
       {
@@ -459,10 +457,9 @@ const brandsInfo = [
   {
     id: "Bulgaria",
     info: {
-      distribuidor: "",
-      tel: "",
-      dir: "",
-      email: "",
+      distribuidor: "BOMAR BULGARIA LTD.",
+      tel: "(+359)(2)9581951",
+      email: "office@bomarbg.eu",
     },
     marcas: [
       {
@@ -480,10 +477,9 @@ const brandsInfo = [
   {
     id: "Macedonia",
     info: {
-      distribuidor: "",
-      tel: "",
-      dir: "",
-      email: "",
+      distribuidor: "DTU Siker Solušn dooel",
+      tel: "(+3892) 30 67 171.",
+      email: "info@sicer.mk",
     },
     marcas: [
       {

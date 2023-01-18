@@ -414,7 +414,7 @@ productContainer.innerHTML += `
 const gridBrandCountry = document.querySelector(".gridBrandCountry");
 siteBrand.paises.map((country) => {
   gridBrandCountry.innerHTML += `<div class="brandCountry">
-  <a href=""><img src="${country.flag}" alt="${country.pais}">
+  <a href="./productoPais.html?brand=${siteBrand.name}&site=${country.pais}"><img src="${country.flag}" alt="${country.pais}">
   <p>${country.pais}</p></a>
   </div>`;
 });
