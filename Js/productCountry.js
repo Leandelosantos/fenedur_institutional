@@ -713,7 +713,7 @@ infoProduct.innerHTML += `
           </div>
         </div>
         <div class="infoEmail">
-        <img src="../../assets/img/circlePhone.png" alt="phone">
+        <img src="../../assets/img/circleMail.png" alt="phone">
           ${
             productByBrand.countryDist.email
               ? `<p>${productByBrand.countryDist.email}</p>`
@@ -723,27 +723,27 @@ infoProduct.innerHTML += `
         <div class="infoRRSS">
             ${
               productByBrand.countryDist.web
-                ? `<div class="infoMedia"><img src="../../assets/img/circlePhone.png" alt="phone"><p>${productByBrand.countryDist.web}</p></div>`
+                ? `<div class="infoMedia"><img src="../../assets/img/circleGlobo.png" alt="phone"><p>${productByBrand.countryDist.web}</p></div>`
                 : ""
             }
             ${
               productByBrand.countryDist.fb
-                ? `<div class="infoMedia"><img src="../../assets/img/circlePhone.png" alt="phone"><p>${productByBrand.countryDist.fb}</p></div>`
+                ? `<div class="infoMedia"><img src="../../assets/img/circleFb.png" alt="phone"><p>${productByBrand.countryDist.fb}</p></div>`
                 : ""
             }
             ${
               productByBrand.countryDist.ig
-                ? `<div class="infoMedia"><img src="../../assets/img/circlePhone.png" alt="phone"><p>${productByBrand.countryDist.ig}</p></div>`
+                ? `<div class="infoMedia"><img src="../../assets/img/circleIg.png" alt="phone"><p>${productByBrand.countryDist.ig}</p></div>`
                 : ""
             }
             ${
               productByBrand.countryDist.yt
-                ? `<div class="infoMedia"><img src="../../assets/img/circlePhone.png" alt="phone"><p>${productByBrand.countryDist.yt}</p></div>`
+                ? `<div class="infoMedia"><img src="../../assets/img/circleYt.png" alt="phone"><p>${productByBrand.countryDist.yt}</p></div>`
                 : ""
             }
             ${
               productByBrand.countryDist.blog
-                ? `<div class="infoMedia"><img src="../../assets/img/circlePhone.png" alt="phone"><p>${productByBrand.countryDist.blog}</p></div>`
+                ? `<div class="infoMedia"><img src="../../assets/img/circleBlog.png" alt="phone"><p>${productByBrand.countryDist.blog}</p></div>`
                 : ""
             }
         </div>
