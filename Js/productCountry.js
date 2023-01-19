@@ -29,8 +29,6 @@ const productsCountries = [
         id: "Brasil",
         distribuidor: "GCV Colas e Adesivos EIRELI.",
         tel: "(+51) 3341 8139",
-        distribuidor2: "TBR Adesivos e Selantes Ltda.",
-        tel2: "(41) 2109-8012.",
         web: "www.poxipol.com.br",
         fb: "https://www.facebook.com/POXIPOL.Brasil",
         ig: "https://www.instagram.com/poxipol.brasil",
@@ -664,37 +662,89 @@ const productBrand = productsCountries.find(
   (element) => element.name === myParamBrand
 );
 
+const productByBrand = {
+  ...productBrand,
+  countryDist: productBrand.countryDist.find(
+    (country) => country.id === myParamSite
+  ),
+};
+
 const productCountryContainer = document.querySelector(
   ".productCountryContainer"
 );
+
+productCountryContainer.innerHTML += `
+    <h2>${productByBrand.name}&#174; ${productByBrand.boldDesc}</h3>
+    ${
+      productByBrand.desc1
+        ? `<p>${productByBrand.name}&#174; ${productByBrand.desc1}</p>`
+        : ""
+    }`;
+
 const infoProduct = document.querySelector(".infoProduct");
 
-productBrand.countryDist.map((country) => {
-  country.id === myParamSite
-    ? (infoProduct.innerHTML += `
-    <h2>${productBrand.name}&#174; ${country.id}</h2>
+infoProduct.innerHTML += `
+    <h2>${
+      productByBrand.name
+    }&#174; ${productByBrand.countryDist.id.toUpperCase()}</h2>
     <h3>${
-      productBrand.name
-    }&#174; se comercializa en todo el país on gran éxito y es el adhesivo instantaneoelegido por los usuarios.</h3>
-    <img src="${productBrand.img}" alt="${productBrand.name}">
+      productByBrand.name
+    }&#174; se comercializa en todo el país on gran éxito y es el adhesivo instantaneo elegido por los usuarios.</h3>
+    <img src="${productByBrand.img}" alt="${productByBrand.name}">
     <div class="infoCountry">
         <p>Distribuye:</p>
-        <p>${country.distribuidor}</p>
+        <h4>${productByBrand.countryDist.distribuidor}</h4>
         <div class="infoTel">
-            <p>${country.tel}</p>
-            ${country.tel2 ? `<p>${country.tel2}</p>` : ""}
-            ${country.tel3 ? `<p>${country.tel3}</p>` : ""}
+          <div class="iconContainer">
+            <img src="../../assets/img/circlePhone.png" alt="phone">
+            <p>${productByBrand.countryDist.tel}</p>
+          </div>
+          <div class="telContainer">
+            ${
+              productByBrand.countryDist.tel2
+                ? `<p>${productByBrand.countryDist.tel2}</p>`
+                : ""
+            }
+            ${
+              productByBrand.countryDist.tel3
+                ? `<p>${productByBrand.countryDist.tel3}</p>`
+                : ""
+            }
+          </div>
         </div>
-        <p>${country.email}</p>
+        <div class="infoEmail">
+        <img src="../../assets/img/circlePhone.png" alt="phone">
+          ${
+            productByBrand.countryDist.email
+              ? `<p>${productByBrand.countryDist.email}</p>`
+              : ""
+          }
+        </div>
         <div class="infoRRSS">
-            ${country.web ? `<p>${country.web}</p>` : ""}
-            ${country.fb ? `<p>${country.fb}</p>` : ""}
-            ${country.ig ? `<p>${country.ig}</p>` : ""}
-            ${country.yt ? `<p>${country.yt}</p>` : ""}
-            ${country.blog ? `<p>${country.blog}</p>` : ""}
+            ${
+              productByBrand.countryDist.web
+                ? `<div class="infoMedia"><img src="../../assets/img/circlePhone.png" alt="phone"><p>${productByBrand.countryDist.web}</p></div>`
+                : ""
+            }
+            ${
+              productByBrand.countryDist.fb
+                ? `<div class="infoMedia"><img src="../../assets/img/circlePhone.png" alt="phone"><p>${productByBrand.countryDist.fb}</p></div>`
+                : ""
+            }
+            ${
+              productByBrand.countryDist.ig
+                ? `<div class="infoMedia"><img src="../../assets/img/circlePhone.png" alt="phone"><p>${productByBrand.countryDist.ig}</p></div>`
+                : ""
+            }
+            ${
+              productByBrand.countryDist.yt
+                ? `<div class="infoMedia"><img src="../../assets/img/circlePhone.png" alt="phone"><p>${productByBrand.countryDist.yt}</p></div>`
+                : ""
+            }
+            ${
+              productByBrand.countryDist.blog
+                ? `<div class="infoMedia"><img src="../../assets/img/circlePhone.png" alt="phone"><p>${productByBrand.countryDist.blog}</p></div>`
+                : ""
+            }
         </div>
-        </div>`)
-    : "";
-});
-
-console.log(productBrand);
+        </div>`;

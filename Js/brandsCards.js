@@ -564,6 +564,7 @@ selectContainer.innerHTML += `Estas son nuestras marcas en ${site.id}`;
 const gridCards = document.querySelector(".gridCards");
 
 site.marcas.map((brand) => {
+  console.log(brand.name.toLowerCase().slice(0, -6));
   gridCards.innerHTML += `
         <div class="cardBrand">
             <img src="${brand.img}" alt="${brand.name}">
@@ -572,7 +573,9 @@ site.marcas.map((brand) => {
               <a href=${brand.web} target="_blank">
                   <button class="goWeb">Ir a web</button>
               </a>
-              <a href="#">
+              <a href="./Marcas-y-Productos/productoPais.html?brand=${brand.name
+                .toLowerCase()
+                .slice(0, -6)}&site=${site.id}">
                   <button class="goBrand">Ver Marca</button>
               </a>
             </div>

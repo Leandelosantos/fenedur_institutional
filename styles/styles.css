@@ -306,7 +306,6 @@ body {
   flex-flow: row nowrap;
   font-weight: 400;
   color: #fff;
-  /* width: 80%; */
   width: 100%;
   margin: 0 0 0 10%;
   gap: 4%;
@@ -918,7 +917,7 @@ body {
   font-size: 24px;
   margin: 2% auto;
   color: #766e65;
-  line-height: 10px;
+  line-height: 25px;
   font-weight: 500;
 }
 
@@ -1180,6 +1179,114 @@ body {
   width: 85%;
 }
 
+.infoProduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.infoProduct h2 {
+  font-size: 35px;
+}
+
+.infoProduct h3 {
+  width: 75%;
+}
+
+.infoProduct img {
+  margin: 10% 0;
+}
+
+.infoCountry {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+  margin: 4% 0;
+  width: 75%;
+}
+
+.infoCountry p {
+  font-size: 24px;
+  margin: 1% 0;
+}
+.infoCountry h4 {
+  margin: 4% 0;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.infoTel {
+  text-align: start;
+}
+
+.infoTel img {
+  width: 4%;
+  margin: auto;
+}
+.infoTel p {
+  margin: 0;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row nowrap;
+  gap: 1%;
+}
+
+.iconContainer img {
+  margin: 0;
+}
+
+.telContainer {
+  margin-left: 5%;
+}
+
+.infoEmail {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row nowrap;
+  gap: 1%;
+}
+
+.infoEmail img {
+  width: 4%;
+  margin: 0;
+}
+
+.infoRRSS {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+  margin: 4% 0;
+  width: 100%;
+}
+
+.infoRRSS p {
+  font-size: 22px;
+}
+
+.infoMedia {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row nowrap;
+  gap: 1%;
+}
+
+.infoMedia img {
+  width: 4%;
+  margin: 0;
+}
+
 .back-markets-country {
   display: flex;
   justify-content: center;
@@ -1196,6 +1303,10 @@ body {
   border-radius: 24px;
   width: 19%;
   padding: 7px;
+}
+
+.back-markets-country button:nth-child(2) {
+  background-color: #aea69c;
 }
 
 .back-markets-country button a {

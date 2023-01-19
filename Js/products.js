@@ -84,10 +84,6 @@ const products = [
         pais: "Bolivia",
       },
       {
-        flag: "../../assets/img/banderas/4brasil.png",
-        pais: "Brasil",
-      },
-      {
         flag: "../../assets/img/banderas/7bulgaria.png",
         pais: "Bulgaria",
       },
