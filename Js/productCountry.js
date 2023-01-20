@@ -1,8 +1,8 @@
 const productsCountries = [
   {
     name: "Poxipol",
-    img: "../../assets/img/marcas/poxipol.png",
-    imgBig: "../../assets/img/marcas/poxipol.png",
+    img: "../../assets/img/marcas/prodPoxipol.png",
+    imgBig: "../../assets/img/marcas/Bannerpoxipol.png",
     boldDesc:
       "es un adhesivo epoxi de gran resistencia y durabilidad. Viene en dos componentes, es fácil de preparar y usar y endurece en sólo 10 minutos.",
     desc1:
@@ -138,8 +138,8 @@ const productsCountries = [
   },
   {
     name: "LaGotita",
-    img: "../../assets/img/marcas/laGotita.png",
-    imgBig: "../../assets/img/marcas/laGotita.png",
+    img: "../../assets/img/marcas/prodLaGotita.png",
+    imgBig: "../../assets/img/marcas/bannerLaGotita.png",
     boldDesc:
       "es un adhesivo instantáneo y fácil de usar para pequeñas reparaciones domésticas que pega en pocos segundos gran variedad de materiales. Las características que la hacen única es que sale gota a gota, su estuche se mantiene en pie, no salpica y no gotea.",
     desc1:
@@ -674,6 +674,7 @@ const productCountryContainer = document.querySelector(
 );
 
 productCountryContainer.innerHTML += `
+    <img src="${productByBrand.imgBig}" alt="${productByBrand.name}">
     <h2>${productByBrand.name}&#174; ${productByBrand.boldDesc}</h3>
     ${
       productByBrand.desc1

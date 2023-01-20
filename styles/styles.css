@@ -1167,6 +1167,10 @@ body {
   margin: auto;
 }
 
+.productCountryContainer img {
+  width: 80%;
+}
+
 .productCountryContainer h2 {
   font-size: 25px;
   font-weight: 600;
@@ -1190,7 +1194,7 @@ body {
 }
 
 .infoProduct h2 {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .infoProduct h3 {
@@ -1198,7 +1202,8 @@ body {
 }
 
 .infoProduct img {
-  margin: 10% 0;
+  width: 60%;
+  margin: 2% 0;
 }
 
 .infoCountry {
