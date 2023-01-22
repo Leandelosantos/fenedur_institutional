@@ -1766,4 +1766,78 @@ hr {
   .valores h2 {
     font-size: 55px;
   }
+
+  /* Marcas y Productos */
+  .brands-products {
+    width: 90%;
+  }
+  .brands-products h1 {
+    margin: 5% auto;
+    font-size: 25px;
+  }
+  .brands-products p:nth-child(2) {
+    font-size: 20px;
+    width: 90%;
+  }
+  .brands-products p:nth-child(3) {
+    font-size: 16px;
+    width: 80%;
+    margin: 2% auto 4%;
+  }
+
+  .selectContainer {
+    width: 55%;
+    font-size: 14px;
+  }
+
+  .gridBrands {
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: 12% auto;
+  }
+
+  /* Nuestros Mercados */
+
+  .shadowHeader {
+    font-size: 25px;
+    background-color: transparent;
+    box-shadow: none;
+    z-index: 999;
+  }
+  .ourMarketsHeader {
+    width: 200%;
+    height: 310px;
+    z-index: 0;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 15%;
+    margin: 14% 0 0 0;
+  }
+  .mainText {
+    width: 90%;
+    z-index: 998;
+    position: relative;
+    bottom: 35px;
+  }
+  .mainText h2 {
+    width: 80%;
+    font-size: 18px;
+  }
+  .mainText p {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .gridFlags {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    width: 80%;
+    column-gap: 12%;
+  }
+  .flags a {
+    width: 100%;
+  }
+  .flags p {
+    font-size: 16px;
+  }
 }
