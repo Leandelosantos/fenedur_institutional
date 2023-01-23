@@ -1805,12 +1805,12 @@ hr {
     z-index: 999;
   }
   .ourMarketsHeader {
-    width: 200%;
+    width: 684px;
     height: 310px;
     z-index: 0;
     background-repeat: no-repeat;
     position: relative;
-    right: 15%;
+    right: 33%;
     margin: 14% 0 0 0;
   }
   .mainText {
