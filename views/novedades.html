@@ -252,95 +252,66 @@
           <h3>Contactate con nosotros</h3>
           <p>Para más información comunicate con nosotros.</p>
         </div>
-        <div class="formContainer">
-          <form action="">
-            <div class="row row-cols-2">
-              <div class="mb-3 col-md-5">
-                <label for="Nombre y Apellido" class="form-label"
-                  >Nombre y Apellido</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="Nombre y Apellido"
-                />
+        <div>
+          <form action="" class="formContainer">
+            <div class="col1">
+              <div class="formName">
+                <label for="nombreYapellido">Nombre y apellido</label>
+                <input type="text" id="nombreYapellido" required />
               </div>
-              <div class="mb-3 ms-5 ps-3 col-md-2">
-                <label for="telefono" class="form-label">Teléfono</label>
-                <select
-                  class="form-select"
-                  aria-label="Default select example"
-                  id="telefono"
-                >
-                  <option selected>Celular</option>
-                  <option value="1">Teléfono fijo</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
+              <div class="formSelect">
+                <select required>
+                  <option selected>Motivo de consulta</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+                <select required>
+                  <option selected>Selección de país</option>
+                  <option value="uru">Uruguay</option>
+                  <option value="bol">Bolivia</option>
+                  <option value="br">Brasil</option>
+                  <option value="pl">Polonia</option>
                 </select>
               </div>
-              <div class="mb-3 col-md-1">
-                <label for="Prefijo" class="form-label">Prefijo</label>
-                <input type="text" class="form-control" id="Prefijo" />
-              </div>
-              <div class="mb-3 col-md-2">
-                <label for="Numero" class="form-label">Número</label>
-                <input type="text" class="form-control" id="Numero" />
+              <div class="formEmail">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" required />
               </div>
             </div>
-            <div class="row row-cols-2">
-              <div class="col-md-6 pe-0">
-                <div class="mb-3 col-md-6 inputSelect">
-                  <select
-                    class="form-select"
-                    aria-label="Default select example"
-                  >
-                    <option selected>Motivo de consulta</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
-                </div>
-                <div class="mb-3 col-md-6 inputSelect">
-                  <select
-                    class="form-select"
-                    aria-label="Default select example"
-                  >
-                    <option selected>Selección de país</option>
-                    <option value="1">Uruguay</option>
-                    <option value="2">Argentina</option>
-                    <option value="3">Bolivia</option>
-                    <option value="3">Paraguay</option>
-                  </select>
-                </div>
+            <div class="col2">
+              <div class="formTel">
+                <label for="telefono">Teléfono</label>
+                <label for="prefijo">Prefijo</label>
+                <label for="numero">Número</label>
+                <select id="telefono">
+                  <option selected value="cel">Celular</option>
+                  <option value="fijo">Teléfono Fijo</option>
+                  <option value="trabajo">Trabajo</option>
+                </select>
+                <input type="number" id="prefijo" />
+                -
+                <input type="number" id="numero" />
+              </div>
+              <div class="formText">
+                <label for="formTextarea">Consulta</label>
+                <textarea id="formTextarea"></textarea>
               </div>
 
-              <div class="mb-3 col-md-6 textareaForm">
-                <label for="consulta" class="form-label">Consulta</label>
-                <textarea
-                  class="form-control"
-                  id="consulta"
-                  rows="3"
-                ></textarea>
-              </div>
-            </div>
-            <div class="row row-cols-2">
-              <div class="mb-3 col-md-5">
-                <label for="email" class="form-label">E-mail</label>
-                <input type="text" class="form-control" id="email" />
-              </div>
               <div
                 class="g-recaptcha captcha"
                 data-sitekey="6LfpX98jAAAAABoLqTMcIt5U8vZWf3zMpoTxxwXP"
               ></div>
             </div>
             <div class="btnSubmit">
-              <button type="button" class="btn btn-secondary">ENVIAR</button>
+              <button type="button">ENVIAR</button>
             </div>
           </form>
         </div>
         <div class="dataFenedur">
           <div class="logoContainer">
-            <img src="../assets/img/Logo Fenedur.png" alt="Logo Fenedur" />
+            <img src="./assets/img/Logo Fenedur.png" alt="Logo Fenedur" />
             <p>Fenedur&#174; - Todos los derechos reservados</p>
           </div>
           <div class="adress">

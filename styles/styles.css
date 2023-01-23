@@ -395,7 +395,6 @@ body {
   align-items: center;
   background-color: #2f2c29;
   width: 100%;
-  height: 60rem;
   color: white;
 }
 
@@ -415,39 +414,117 @@ body {
 
 .formContainer {
   background-color: #363330;
-  width: 60%;
-  height: 50%;
-  padding: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.formContainer .col1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 50%;
+}
+.formContainer .formName {
+  margin-bottom: 6%;
+  width: 100%;
+}
+.formContainer select {
+  width: 80%;
+  margin: 3% 0;
+  text-align: start;
+}
+.formContainer .formSelect select {
+  font-size: 15px;
+  color: #766e65;
+  padding: 1.5%;
+  border-radius: 4px;
+  width: 55%;
+  margin: 2% 30% 3% 0;
+}
+.formContainer .formEmail {
+  width: 100%;
 }
 
-.col-md-1 {
-  width: 10%;
+.formContainer .col2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 50%;
+  margin-top: 5%;
 }
-
-.inputSelect {
-  margin-right: 0;
+.formTel {
+  width: 95%;
 }
-
-.textareaForm {
+.formContainer label {
+  width: 80%;
+  font-weight: 500;
+  text-align: start;
+  font-size: 14px;
+}
+.formContainer input {
+  width: 80%;
+  padding: 1%;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.formContainer .formText {
+  margin-top: 5%;
+}
+.formContainer .formText label {
+  margin-right: 20%;
+}
+.formContainer .formText textarea {
+  width: 100%;
+  height: 100px;
+  padding: 1%;
+  border-radius: 4px;
+  font-size: 24px;
+}
+.formContainer .formTel label {
+  width: 24%;
+}
+.formTel label:nth-child(3) {
+  margin-right: 13%;
+  width: 14%;
+}
+.formContainer .formTel select {
+  width: 25%;
   margin-right: 1%;
-  width: 40%;
-  padding: 0;
+  color: #766e65;
+  padding: 1.8%;
+  border-radius: 4px;
+  font-size: 13px;
 }
-
+.formContainer .formTel input {
+  width: 20%;
+}
+.formContainer .formTel #numero {
+  width: 33%;
+}
 .captcha {
-  margin: 4% 0 0 7%;
+  margin: 4% 7% 0 0%;
 }
 
 .btnSubmit {
-  margin-top: 3%;
+  width: 100%;
+  margin: 4% 0 3% 5%;
+  text-align: start;
 }
 
 .btnSubmit button {
   border-radius: 28px;
   background-color: #656565;
   border: none;
-  font-size: 15px;
+  color: white;
+  font-size: 16px;
   width: 14%;
+  padding: 0.8%;
   font-weight: 500;
 }
 
@@ -1633,17 +1710,17 @@ hr {
   .h_footer-container {
     margin: 10% 0 0 0;
   }
-  .formContainer {
+  /* .formContainer {
     width: 90%;
     height: auto;
-  }
+  } */
   .dataFenedur {
     flex-flow: column nowrap;
     width: 90%;
     margin-top: 10%;
   }
   .logoContainer img {
-    width: 30%;
+    width: 32%;
   }
   .dataFenedur .logoContainer p {
     margin: 0;
@@ -2086,7 +2163,7 @@ hr {
   .logoContainer {
     line-height: 25px;
   }
-  .logoContainer img {
+  .contactLogos .logoContainer img {
     width: 8%;
   }
   .logoContainer p {
@@ -2119,5 +2196,46 @@ hr {
   }
   .cardBrand .goBrand {
     font-size: 12px;
+  }
+
+  /* Formulario */
+  .formContainer {
+    flex-flow: column nowrap;
+    width: 90%;
+  }
+  .formContainer .col1 {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .formSelect {
+    width: 100%;
+  }
+  .formContainer .formSelect select {
+    margin: 2% 25% 3% 0;
+  }
+  .formContainer .col2 {
+    width: 100%;
+  }
+  .formText {
+    width: 90%;
+  }
+  .formContainer .formText label {
+    margin-right: 10%;
+  }
+  .formContainer .formText textarea {
+    width: 90%;
+    font-size: 14px;
+  }
+  .captcha {
+    margin: 4% 0;
+  }
+  .btnSubmit {
+    width: 82%;
+    margin: 4% 0 10% 0;
+  }
+  .btnSubmit button {
+    font-size: 18px;
+    width: 45%;
+    padding: 2.5%;
   }
 }
