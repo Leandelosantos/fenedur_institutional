@@ -391,7 +391,9 @@ const brandCountry = document.querySelector(".brandCountry");
 
 productContainer.innerHTML += `
         <img src="${siteBrand.imgBig}" alt="${siteBrand.name}">
-        <h2>${siteBrand.name}&#174; ${siteBrand.boldDesc}</h2>
+        <h2 class="mobileHeader">${siteBrand.name}&#174; ${
+  siteBrand.boldDesc
+}</h2>
         ${
           siteBrand.desc1
             ? `<p>${siteBrand.name}&#174; ${siteBrand.desc1}</p>`

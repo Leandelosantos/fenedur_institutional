@@ -690,7 +690,7 @@ infoProduct.innerHTML += `
     }&#174; ${productByBrand.countryDist.id.toUpperCase()}</h2>
     <h3>${
       productByBrand.name
-    }&#174; se comercializa en todo el país on gran éxito y es el adhesivo instantaneo elegido por los usuarios.</h3>
+    }&#174; se comercializa en todo el país con gran éxito y es el adhesivo instantaneo elegido por los usuarios.</h3>
     <img src="${productByBrand.img}" alt="${productByBrand.name}">
     <div class="infoCountry">
         <p>Distribuye:</p>

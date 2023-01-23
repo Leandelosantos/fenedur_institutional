@@ -1840,4 +1840,258 @@ hr {
   .flags p {
     font-size: 16px;
   }
+
+  /* Novedades */
+
+  .headerNewsContainer {
+    margin: 8% auto;
+  }
+  .headerNewsContainer h1 {
+    font-size: 28px;
+  }
+  .headerNewsContainer h3 {
+    width: 80%;
+    font-size: 18px;
+  }
+
+  .newsContainer {
+    flex-flow: column;
+    margin: 8% auto 13%;
+  }
+  .newsDiv {
+    width: 90%;
+  }
+  .newsDiv p {
+    font-size: 17px;
+  }
+  .newsDiv h2 {
+    width: 65%;
+    font-size: 20px;
+  }
+  .newsDiv p:nth-child(4) {
+    font-size: 15px;
+    width: 95%;
+    margin: 4% auto 4% 0%;
+  }
+  .newsDiv button {
+    padding: 0.5%;
+    margin: 2% auto 5%;
+  }
+  .newsContainer img {
+    width: 90%;
+  }
+
+  .newsDiv-new {
+    width: 90%;
+  }
+  .newsDiv-new p {
+    font-size: 17px;
+  }
+  .newsDiv-new h2 {
+    font-size: 20px;
+    width: 65%;
+  }
+  .newsDiv-new p:nth-child(4) {
+    font-size: 15px;
+    width: 95%;
+    margin: 4% auto 4% 0%;
+  }
+  .newsContainer-new img {
+    width: 90%;
+  }
+  .newsContainer-new button {
+    width: 60%;
+    font-size: 15px;
+    margin: 11% 0 6%;
+  }
+
+  /* Producto */
+
+  .productSection h2 {
+    font-size: 24px;
+    margin: 10% auto 8%;
+  }
+
+  .productContainer {
+    width: 100%;
+  }
+  .productContainer img {
+    width: 90%;
+  }
+  .productContainer .mobileHeader {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    width: 67%;
+  }
+  .productContainer p {
+    font-size: 16px;
+    width: 85%;
+  }
+
+  .brandIn {
+    width: 100%;
+  }
+  .brandIn h3 {
+    font-size: 17px;
+    width: 80%;
+  }
+  .brandIn .chooseCountry {
+    width: 82%;
+    font-size: 14px;
+  }
+  .productContainer .brandCountry img {
+    width: 30%;
+  }
+  .productContainer .brandCountry p {
+    font-size: 12px;
+  }
+
+  .back-markets {
+    flex-flow: column nowrap;
+    gap: 30px;
+    margin: 6% auto;
+  }
+  .back-markets button {
+    font-size: 14px;
+    width: 55%;
+  }
+
+  /* Producto Pais */
+
+  .productCountrySection h2 {
+    font-size: 24px;
+    margin: 10% auto 8%;
+  }
+  .productCountryContainer {
+    width: 100%;
+  }
+  .productCountryContainer img {
+    width: 90%;
+  }
+  .productCountryContainer h2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    width: 67%;
+  }
+  .productCountryContainer p {
+    font-size: 16px;
+    width: 85%;
+  }
+
+  .infoProduct {
+    width: 90%;
+  }
+  .infoProduct h2 {
+    font-size: 22px;
+  }
+  .infoProduct h3 {
+    font-size: 14px;
+    width: 90%;
+  }
+  .infoProduct img {
+    width: 90%;
+  }
+
+  .infoCountry {
+    width: 90%;
+  }
+  .infoCountry p {
+    font-size: 14px;
+  }
+  .infoCountry h4 {
+    font-size: 16px;
+  }
+
+  .infoTel .iconContainer img {
+    width: 8%;
+  }
+  .infoTel .telContainer {
+    margin-left: 9%;
+  }
+
+  .infoEmail img {
+    width: 8%;
+  }
+
+  .infoRRSS {
+    overflow-wrap: anywhere;
+    gap: 6px;
+  }
+  .infoMedia img {
+    width: 8%;
+  }
+
+  .back-markets-country {
+    flex-flow: column nowrap;
+    gap: 20px;
+  }
+  .back-markets-country button {
+    font-size: 14px;
+    width: 50%;
+    padding: 3px;
+  }
+
+  /* Nuestros Mercados Pais */
+  .countryContainer {
+    width: 90%;
+  }
+  .countryContainer h1 {
+    font-size: 25px;
+  }
+  .countryContainer h2 {
+    font-size: 28px;
+  }
+  .countryContainer p {
+    font-size: 15px;
+    width: 80%;
+    line-height: 22px;
+  }
+  .countryContainer p:nth-child(n + 4) {
+    font-size: 13px;
+    width: 90%;
+  }
+
+  .contactLogos {
+    flex-flow: column nowrap;
+    width: 90%;
+  }
+  .logoContainer {
+    line-height: 25px;
+  }
+  .logoContainer img {
+    width: 8%;
+  }
+  .logoContainer p {
+    font-size: 15px;
+  }
+
+  .headerBrands {
+    width: 90%;
+    margin: 5% auto;
+  }
+
+  .gridCards {
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    column-gap: 5px;
+  }
+  .cardBrand {
+    font-size: 18px;
+    height: 300px;
+    width: 100%;
+  }
+  .cardBrand img {
+    width: 100%;
+  }
+  .buttonsContainer {
+    width: 50%;
+  }
+  .cardBrand .goWeb {
+    font-size: 12px;
+  }
+  .cardBrand .goBrand {
+    font-size: 12px;
+  }
 }
