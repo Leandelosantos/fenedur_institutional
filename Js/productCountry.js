@@ -661,6 +661,7 @@ const myParamSite = urlParamsCountry.get("site");
 const productBrand = productsCountries.find(
   (element) => element.name === myParamBrand
 );
+const btnBackContainer = document.querySelector(".back-markets-country");
 
 const productByBrand = {
   ...productBrand,
@@ -749,3 +750,6 @@ infoProduct.innerHTML += `
             }
         </div>
         </div>`;
+
+btnBackContainer.innerHTML += `
+<button><a href="./producto.html?brand=${productByBrand.name}">Volver</a></button>`;
