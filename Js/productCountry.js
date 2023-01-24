@@ -262,7 +262,7 @@ const productsCountries = [
     ],
   },
   {
-    name: "Eccole",
+    name: "Éccole",
     img: "../../assets/img/marcas/eccole.png",
     imgBig: "../../assets/img/marcas/eccole.png",
     boldDesc:
