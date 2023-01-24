@@ -399,7 +399,7 @@ body {
 }
 
 .h_footer-container {
-  margin: 4.5% 35.6% 0 0;
+  margin: 4.5% 31% 0 0;
 }
 
 .h_footer-container h3 {
@@ -535,7 +535,7 @@ body {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  width: 59.6%;
+  width: 55%;
   margin-top: 2.5%;
 }
 
@@ -663,8 +663,8 @@ body {
   top: 109%;
 }
 
-.inner {
-  padding-left: 2.5%;
+.carousel-inner {
+  height: 37rem;
 }
 
 .itemsContainer {
@@ -1018,7 +1018,7 @@ body {
 }
 
 .logoContainer p {
-  font-size: 26px;
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -1537,6 +1537,9 @@ hr {
 /* Index */
 
 @media (max-width: 414px) {
+  .carousel-inner {
+    height: 38rem;
+  }
   .logoFenedur {
     top: 13%;
     width: 35%;
