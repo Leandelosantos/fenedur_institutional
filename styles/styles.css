@@ -664,7 +664,7 @@ body {
 }
 
 .carousel-inner {
-  height: 37rem;
+  height: 38rem;
 }
 
 .itemsContainer {
@@ -1538,7 +1538,7 @@ hr {
 
 @media (max-width: 414px) {
   .carousel-inner {
-    height: 38rem;
+    height: 32rem;
   }
   .logoFenedur {
     top: 13%;
