@@ -17,7 +17,7 @@ body {
 /* Header */
 
 .carousel-indicators {
-  top: 105%;
+  top: 103%;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -196,7 +196,7 @@ body {
 .btnConoceMas {
   position: absolute;
   left: 45%;
-  top: 88%;
+  top: 90%;
   font-size: 14px;
   width: 10%;
 }
@@ -664,7 +664,10 @@ body {
 }
 
 .carousel-inner {
-  height: 38rem;
+  height: 37rem;
+}
+.inner {
+  height: auto;
 }
 
 .itemsContainer {
@@ -1047,6 +1050,9 @@ body {
   margin: auto;
   font-size: 24px;
   font-weight: 500;
+}
+.cardBrand img {
+  width: 80%;
 }
 
 .buttonsContainer {
@@ -1540,6 +1546,10 @@ hr {
   .carousel-inner {
     height: 32rem;
   }
+  .carousel-indicators {
+    top: 100%;
+  }
+
   .logoFenedur {
     top: 13%;
     width: 35%;
@@ -1592,7 +1602,7 @@ hr {
   }
   .btnConoceMas {
     left: 36%;
-    top: 83%;
+    top: 80%;
     font-size: 13px;
     width: 30%;
   }
@@ -1768,6 +1778,7 @@ hr {
     height: 250px;
   }
   .inner {
+    height: auto;
     padding: 0;
   }
   .carousel-item .mobileSlider {

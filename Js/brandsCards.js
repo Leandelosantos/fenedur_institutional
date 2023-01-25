@@ -9,12 +9,12 @@ const brandsInfo = [
     },
     marcas: [
       {
-        img: "../assets/img/cuadrados/eccole.jpg",
+        img: "../assets/img/productos/poxipol.png",
         name: "Poxipol&#174;",
         web: "https://poxipol.com.uy",
       },
       {
-        img: "../assets/img/cuadrados/eccole.jpg",
+        img: "../assets/img/productos/lagotita.png",
         name: "La Gotita&#174;",
         web: "http://lagotita.com.uy",
       },
