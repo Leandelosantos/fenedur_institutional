@@ -19,48 +19,43 @@ const brandsInfo = [
         web: "http://lagotita.com.uy",
       },
       {
-        img: "../assets/img/cuadrados/eccole.jpg",
+        img: "../assets/img/productos/poxilina.png",
         name: "Poxilina&#174;",
         web: "http://poxilina.com.uy",
       },
       {
-        img: "../assets/img/cuadrados/eccole.jpg",
+        img: "../assets/img/productos/fastix.png",
         name: "Fastix&#174;",
         web: "http://www.fastix.com.uy",
       },
       {
-        img: "../assets/img/cuadrados/eccole.jpg",
+        img: "../assets/img/productos/eccole.png",
         name: "Éccole&#174;",
         web: "http://www.eccole.com.uy",
       },
       {
-        img: "../assets/img/cuadrados/eccole.jpg",
+        img: "../assets/img/productos/poximix.png",
         name: "Poximix&#174;",
         web: "http://www.poximix.com.uy",
       },
       {
-        img: "../assets/img/cuadrados/eccole.jpg",
+        img: "../assets/img/productos/pulpito.png",
         name: "El Pulpito&#174;",
         web: "http://www.elpulpito.com.uy",
       },
       {
-        img: "../assets/img/cuadrados/eccole.jpg",
+        img: "../assets/img/productos/novopren.png",
         name: "Novopren&#174;",
         web: "",
       },
       {
-        img: "../assets/img/cuadrados/eccole.jpg",
+        img: "../assets/img/productos/voligoma.png",
         name: "Voligoma&#174;",
         web: "",
       },
       {
-        img: "../assets/img/cuadrados/eccole.jpg",
+        img: "../assets/img/productos/unipox.png",
         name: "Unipox&#174;",
-        web: "",
-      },
-      {
-        img: "../assets/img/cuadrados/eccole.jpg",
-        name: "Python&#174;",
         web: "",
       },
     ],
@@ -74,37 +69,37 @@ const brandsInfo = [
     },
     marcas: [
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/Poxipol.png",
         name: "Poxipol&#174;",
         web: "https://poxipol.com.bo/",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/lagotita.png",
         name: "La Gotita&#174;",
         web: "https://lagotita.com.bo",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxilina.png",
         name: "Poxilina&#174;",
         web: "https://poxilina.com.bo",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/fastix.png",
         name: "Fastix&#174;",
         web: "https://fastix.com.bo",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/eccole.png",
         name: "Éccole&#174;",
         web: "https://eccole.com.bo",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/voligoma.png",
         name: "Voligoma&#174;",
         web: "",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/unipox.png",
         name: "Unipox&#174;",
         web: "",
       },
@@ -120,12 +115,12 @@ const brandsInfo = [
     },
     marcas: [
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/Poxipol.png",
         name: "Poxipol&#174;",
         web: "https://www.poxipol.com.br",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxilina.png",
         name: "Poxilina&#174;",
         web: "https://www.poxilina.com.br",
       },
@@ -141,37 +136,37 @@ const brandsInfo = [
     },
     marcas: [
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxipol.png",
         name: "Poxipol&#174;",
         web: "https://www.poxipol.com.cl",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/lagotita.png",
         name: "La Gotita&#174;",
         web: "https://www.lagotita.com.cl",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxilina.png",
         name: "Poxilina&#174;",
         web: "https://www.poxilina.com.cl",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/fastix.png",
         name: "Fastix&#174;",
         web: "https://www.fastix.com.cl",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/eccole.png",
         name: "Éccole&#174;",
         web: "https://www.eccole.com.cl",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poximix.png",
         name: "Poximix&#174;",
         web: "https:/www.poximix.cl",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/pulpito.png",
         name: "El Pulpito&#174;",
         web: "https://www.elpulpito.cl",
       },
@@ -187,32 +182,32 @@ const brandsInfo = [
     },
     marcas: [
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxipol.png",
         name: "Poxipol&#174;",
         web: "https//www.poxipol.com.py",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/lagotita.png",
         name: "La Gotita&#174;",
         web: "https//www.lagotita.com.py",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxilina.png",
         name: "Poxilina&#174;",
         web: "https//www.poxilina.com.py",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/fastix.png",
         name: "Fastix&#174;",
         web: "https://www.fastix.com.py",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/eccole.png",
         name: "Éccole&#174;",
         web: "https://www.eccole.com.py",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/voligoma.png",
         name: "Voligoma&#174;",
         web: "",
       },
@@ -228,22 +223,22 @@ const brandsInfo = [
     },
     marcas: [
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxipol.png",
         name: "Poxipol&#174;",
         web: "https://www.poxipol.com.gt",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/lagotita.png",
         name: "La Gotita&#174;",
         web: "https://www.lagotita.com.gt",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxilina.png",
         name: "Poxilina&#174;",
         web: "https://www.poxilina.com.gt",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/fastix.png",
         name: "Fastix&#174;",
         web: "https://www.fastix.com.gt",
       },
@@ -259,17 +254,17 @@ const brandsInfo = [
     },
     marcas: [
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxipol.png",
         name: "Poxipol&#174;",
         web: "https://www.poxipol.com.ni",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/lagotita.png",
         name: "La Gotita&#174;",
         web: "https://www.lagotita.com.ni",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxilina.png",
         name: "Poxilina&#174;",
         web: "https://www.poxilina.com.ni",
       },
@@ -285,17 +280,17 @@ const brandsInfo = [
     },
     marcas: [
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxipol.png",
         name: "Poxipol&#174;",
         web: "https://www.poxipol.com.sv",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/lagotita.png",
         name: "La Gotita&#174;",
         web: "https://www.lagotita.com.sv",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxilina.png",
         name: "Poxilina&#174;",
         web: "https://www.poxilina.com.sv",
       },
@@ -311,22 +306,22 @@ const brandsInfo = [
     },
     marcas: [
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxipol.png",
         name: "Poxipol&#174;",
         web: "https://www.poxipol.co.cr",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/lagotita.png",
         name: "La Gotita&#174;",
         web: "https://www.lagotita.co.cr",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxilina.png",
         name: "Poxilina&#174;",
         web: "https://www.poxilina.co.cr",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/fastix.png",
         name: "Fastix&#174;",
         web: "https://www.fastix.co.cr",
       },
@@ -342,27 +337,27 @@ const brandsInfo = [
     },
     marcas: [
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxipol.png",
         name: "Poxipol&#174;",
         web: "https://www.poxipol.com.es",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/lagotita.png",
         name: "La Gotita&#174;",
         web: "https://www.lagotita.com.es",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxilina.png",
         name: "Poxilina&#174;",
         web: "https://www.poxilina.com.es",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/fastix.png",
         name: "Fastix&#174;",
         web: "https://www.fastix.com.es",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/eccole.png",
         name: "Éccole&#174;",
         web: "https://www.eccole.com.es",
       },
@@ -378,28 +373,28 @@ const brandsInfo = [
     },
     marcas: [
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxipol.png",
         name: "Poxipol&#174;",
         web: "https://www.poxipol.com.pl",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/kropelka.png",
         name: "Kropelka&#174;",
         web: "https://www.kropelka.com",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxilina.png",
         name: "Poxilina&#174;",
         web: "https://www.poxilina.com.pl",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/osmio.png",
         name: "Osmiorniczka&#174;",
         web: "https://www.osmiorniczka.com.pl",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
-        name: "Éccole&#174;",
+        img: "../assets/img/productos/tadam.png",
+        name: "Tadam&#174;",
         web: "https://www.tadam.com.pl",
       },
     ],
@@ -414,22 +409,22 @@ const brandsInfo = [
     },
     marcas: [
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxipol.png",
         name: "Poxipol&#174;",
         web: "https://www.poxipol.com.ro",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/picatura.png",
         name: "Picatura&#174;",
         web: "https://www.picatura.com.ro",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxilina.png",
         name: "Poxilina&#174;",
         web: "https://www.poxilina.com.ro",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/tacpac.png",
         name: "Tac-pac&#174;",
         web: "https://www.tac-pac.com.ro",
       },
@@ -443,12 +438,12 @@ const brandsInfo = [
     },
     marcas: [
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxipol.png",
         name: "Poxipol&#174;",
         web: "https://www.poxipol.com.ru",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxilina.png",
         name: "Poxilina&#174;",
         web: "https://www.poxilina.com.ru",
       },
@@ -463,12 +458,12 @@ const brandsInfo = [
     },
     marcas: [
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxipol.png",
         name: "Poxipol&#174;",
         web: "https://www.poxipol.bg",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/kap.png",
         name: "Kapchitza&#174;",
         web: "https://www.kapchitza.bg",
       },
@@ -483,12 +478,12 @@ const brandsInfo = [
     },
     marcas: [
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxipol.png",
         name: "Poxipol&#174;",
         web: "https://www.poxipol.com.mk",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/kapka.png",
         name: "Kapka&#174;",
         web: "https://www.kapka.com.mk",
       },
@@ -504,12 +499,12 @@ const brandsInfo = [
     },
     marcas: [
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxipol.png",
         name: "Poxipol&#174;",
         web: "https://www.poxipol.com.ro",
       },
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxilina.png",
         name: "Poxilina&#174;",
         web: "https://www.poxilina.com.ro",
       },
@@ -525,7 +520,7 @@ const brandsInfo = [
     },
     marcas: [
       {
-        img: "../assets/img/cuadrados/Poxipol.jpg",
+        img: "../assets/img/productos/poxipol.png",
         name: "Poxipol&#174;",
         web: "https://www.poxipol.com.ro",
       },
