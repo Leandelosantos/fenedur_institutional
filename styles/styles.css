@@ -912,8 +912,8 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(6, 1fr);
   grid-column-gap: 0px;
-  grid-row-gap: 10px;
-  width: 58%;
+  grid-row-gap: 20px;
+  width: 65%;
   margin: 5% auto;
   justify-items: center;
 }
@@ -1032,7 +1032,7 @@ body {
 .gridCards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: auto;
   grid-column-gap: 30px;
   grid-row-gap: 8px;
   width: 60%;
@@ -1949,7 +1949,7 @@ hr {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     width: 80%;
-    column-gap: 12%;
+    column-gap: 0%;
   }
   .flags a {
     width: 100%;
@@ -2199,9 +2199,6 @@ hr {
     height: 300px;
     width: 100%;
   }
-  .cardBrand img {
-    width: 100%;
-  }
   .buttonsContainer {
     width: 50%;
   }
@@ -2251,5 +2248,11 @@ hr {
     font-size: 18px;
     width: 45%;
     padding: 2.5%;
+  }
+}
+
+@media (max-width: 1366px) {
+  .v-line p {
+    width: 85%;
   }
 }
