@@ -18,6 +18,15 @@
       src="https://kit.fontawesome.com/d7c4c59e1e.js"
       crossorigin="anonymous"
     ></script>
+    <!-- EmailJs -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <script type="text/javascript">
+      emailjs.init("18iF4JcohxxOSFbBj");
+    </script>
     <!-- reCaptcha -->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title>Fenedur</title>
@@ -368,11 +377,11 @@
           <p>Para más información comunicate con nosotros.</p>
         </div>
         <div>
-          <form action="" class="formContainer">
+          <form class="formContainer" id="form">
             <div class="col1">
               <div class="formName">
-                <label for="nombreYapellido">Nombre y apellido</label>
-                <input type="text" id="nombreYapellido" required />
+                <label for="from_name">Nombre y apellido</label>
+                <input type="text" id="from_name" name="from_name" required />
               </div>
               <div class="formSelect">
                 <select required>
@@ -391,8 +400,8 @@
                 </select>
               </div>
               <div class="formEmail">
-                <label for="email">E-mail</label>
-                <input type="email" id="email" required />
+                <label for="email_id">E-mail</label>
+                <input type="email" id="email_id" name="email_id" required />
               </div>
             </div>
             <div class="col2">
@@ -410,8 +419,8 @@
                 <input type="number" id="numero" />
               </div>
               <div class="formText">
-                <label for="formTextarea">Consulta</label>
-                <textarea id="formTextarea"></textarea>
+                <label for="message">Consulta</label>
+                <textarea type="text" name="message" id="message"></textarea>
               </div>
 
               <div
@@ -420,7 +429,7 @@
               ></div>
             </div>
             <div class="btnSubmit">
-              <button type="button">ENVIAR</button>
+              <button type="submit" id="button" value="ENVIAR">ENVIAR</button>
             </div>
           </form>
         </div>
@@ -449,5 +458,6 @@
       integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
       crossorigin="anonymous"
     ></script>
+    <script src="./Js/form.js"></script>
   </body>
 </html>

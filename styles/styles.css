@@ -849,6 +849,7 @@ body {
   margin: 5% auto 0;
   position: absolute;
   width: 100%;
+  z-index: 999;
   height: 80px;
   top: 26%;
   font-size: 44px;
@@ -869,7 +870,10 @@ body {
 .ourMarketsHeader {
   background-image: url(../assets/img/planisferio.jpg);
   background-size: cover;
-  width: 122%;
+  width: 109%;
+  position: relative;
+  right: 6%;
+  z-index: 0;
   text-align: center;
   margin-top: 3.7%;
   height: 640px;
@@ -1602,7 +1606,7 @@ hr {
   }
   .btnConoceMas {
     left: 36%;
-    top: 80%;
+    top: 83%;
     font-size: 13px;
     width: 30%;
   }
@@ -1793,7 +1797,7 @@ hr {
   }
 
   .whySection {
-    width: 90%;
+    width: 100%;
     margin-bottom: 7%;
   }
   .whyHeader h2 {
@@ -1811,11 +1815,11 @@ hr {
   }
   .whyHeader p {
     width: 82%;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .fromUruguay {
-    width: 90%;
+    width: 100%;
   }
   .fromUruguay h2 {
     font-size: 20px;
@@ -1835,7 +1839,7 @@ hr {
     line-height: 26px;
   }
   .fromUruguay p {
-    font-size: 12px;
+    font-size: 13px;
     width: 92%;
   }
   .fromUruguay p span {
@@ -1843,8 +1847,8 @@ hr {
   }
 
   .mision {
-    font-size: 12px;
-    width: 46%;
+    font-size: 13px;
+    width: 55%;
   }
   .mision h2 {
     font-size: 52px;
@@ -1863,8 +1867,8 @@ hr {
     width: 23%;
   }
   .vision {
-    font-size: 12px;
-    width: 50%;
+    font-size: 13px;
+    width: 55%;
   }
   .vision h2 {
     font-size: 52px;
@@ -1901,7 +1905,7 @@ hr {
   }
 
   .selectContainer {
-    width: 55%;
+    width: 65%;
     font-size: 14px;
   }
 
@@ -1927,7 +1931,7 @@ hr {
     z-index: 0;
     background-repeat: no-repeat;
     position: relative;
-    right: 33%;
+    right: 36%;
     margin: 10% 0 0 0;
   }
   .mainText {
@@ -2056,6 +2060,9 @@ hr {
   .brandIn .chooseCountry {
     width: 82%;
     font-size: 14px;
+  }
+  .gridBrandCountry {
+    width: 90%;
   }
   .productContainer .brandCountry img {
     width: 30%;
@@ -2253,6 +2260,39 @@ hr {
 
 @media (max-width: 1366px) {
   .v-line p {
-    width: 85%;
+    width: 90%;
+  }
+}
+
+@media (max-width: 375px) {
+  .carousel-indicators {
+    top: 90%;
+  }
+  .sliderBrands .indicators {
+    top: 100%;
+  }
+
+  .ourMarketsHeader {
+    width: 670px;
+    right: 43%;
+  }
+  .btnConoceMas {
+    top: 73%;
+  }
+  .brandIn .chooseCountry {
+    width: 95%;
+  }
+  .infoCountry {
+    width: 100%;
+  }
+  .infoCountry p {
+    font-size: 13.9px;
+  }
+}
+
+@media (max-width: 360px) {
+  .ourMarketsHeader {
+    width: 665px;
+    right: 47%;
   }
 }
