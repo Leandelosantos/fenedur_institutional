@@ -2258,6 +2258,15 @@ hr {
   }
 }
 
+@media (min-width: 1441px) and (max-width: 1920px) {
+  .carousel-inner {
+    height: 51rem;
+  }
+  .v-line {
+    height: 15%;
+  }
+}
+
 @media (max-width: 1366px) {
   .v-line p {
     width: 90%;
@@ -2294,5 +2303,14 @@ hr {
   .ourMarketsHeader {
     width: 665px;
     right: 47%;
+  }
+  .v-line p {
+    width: 95%;
+  }
+  .carousel-inner {
+    height: 30rem;
+  }
+  .gridFlags {
+    width: 90%;
   }
 }
