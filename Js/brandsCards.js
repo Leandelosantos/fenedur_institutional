@@ -6,6 +6,7 @@ const brandsInfo = [
       dir: "Camoens 1479, Montevideo, Uruguay.",
       tel: "(+598) 23562222",
       email: "info@adesur.com.uy",
+      flag: "../assets/img/banderas/15uruguay.png",
     },
     marcas: [
       {
@@ -66,6 +67,7 @@ const brandsInfo = [
       distribuidor: "PATAGONIC S.R.L.",
       tel: "(+591) 2 2487448",
       email: "patagonic@cotas.com.bo",
+      flag: "../assets/img/banderas/1bolivia.png",
     },
     marcas: [
       {
@@ -112,6 +114,7 @@ const brandsInfo = [
       tel: "(+51) 3341 8139",
       dir: "Av. Pernambuco, 103, Porto Alegre, Brasil.",
       email: "patagonic@cotas.com.bo",
+      flag: "../assets/img/banderas/4brasil.png",
     },
     marcas: [
       {
@@ -133,6 +136,7 @@ const brandsInfo = [
       tel: "(+562) 26351434",
       dir: "Avda. Condell 1808, Santiago de Chile, Chile",
       email: "ventas@adepac.cl",
+      flag: "../assets/img/banderas/10chile.png",
     },
     marcas: [
       {
@@ -179,6 +183,7 @@ const brandsInfo = [
       tel: "(+595 21) 901000",
       dir: "Patricio Escobar 747, Lambaré, Paraguay.",
       email: "provent@provent.com.py",
+      flag: "../assets/img/banderas/3paraguay.png",
     },
     marcas: [
       {
@@ -220,6 +225,7 @@ const brandsInfo = [
       tel: "(+502) 2202 4700",
       dir: "12 Calle 1-25 Zona 10, Edificio Géminis 10 Torre Sur, Of. 1004 - Ciudad de Guatemala.",
       email: "msros@cascosafety.com",
+      flag: "../assets/img/banderas/5guatemala.png",
     },
     marcas: [
       {
@@ -251,6 +257,7 @@ const brandsInfo = [
       tel: "(+505) 2249 2966",
       dir: "Rotonda Bello horizonte 1 c norte, 1 c este, 25 vrs norte E-I-3, Nicaragua.",
       email: "gerencia@abscomercial.com",
+      flag: "../assets/img/banderas/17nicaragua.png",
     },
     marcas: [
       {
@@ -277,6 +284,7 @@ const brandsInfo = [
       tel: "(+503) 2529-7000",
       dir: "Calle principal y calle Chaparrastique, local 8 Urb. Industrial Santa Elena, Antiguo Cuscatlan, La Libertad.",
       email: "",
+      flag: "../assets/img/banderas/16elsalvador.png",
     },
     marcas: [
       {
@@ -303,6 +311,7 @@ const brandsInfo = [
       tel: "(+506) 2248-0893 ",
       dir: "La Uruca del Banco Nacional 50 Metros Este Bodega # 35",
       email: "jbenavides@corpalbatros.com",
+      flag: "../assets/img/banderas/13costarica.png",
     },
     marcas: [
       {
@@ -334,6 +343,7 @@ const brandsInfo = [
       tel: "(+34) 656323903",
       dir: "Las Mezquitas 14, San Juan de Alicante 03550.",
       email: "info@disposl.es",
+      flag: "../assets/img/banderas/2españa.png",
     },
     marcas: [
       {
@@ -370,6 +380,7 @@ const brandsInfo = [
       tel: "(+22) 868 26 14.",
       dir: "Ul Postępu 18 B, 02-676 Warszawa",
       email: "",
+      flag: "../assets/img/banderas/6polonia.png",
     },
     marcas: [
       {
@@ -406,6 +417,7 @@ const brandsInfo = [
       tel: "",
       dir: "Str. Thomas Masaryk nr. 27D ap.1020984 București, sector 2, România",
       email: "office@rupeco.com.ro",
+      flag: "../assets/img/banderas/9rumania.png",
     },
     marcas: [
       {
@@ -435,6 +447,7 @@ const brandsInfo = [
     info: {
       distribuidor: "UNITED DISTRIBUTION LLC, 2A",
       dir: "Odoevskogo Proezd, oficina 201.",
+      flag: "../assets/img/banderas/12rusia.png",
     },
     marcas: [
       {
@@ -455,6 +468,7 @@ const brandsInfo = [
       distribuidor: "BOMAR BULGARIA LTD.",
       tel: "(+359)(2)9581951",
       email: "office@bomarbg.eu",
+      flag: "../assets/img/banderas/7bulgaria.png",
     },
     marcas: [
       {
@@ -475,6 +489,7 @@ const brandsInfo = [
       distribuidor: "DTU Siker Solušn dooel",
       tel: "(+3892) 30 67 171.",
       email: "info@sicer.mk",
+      flag: "../assets/img/banderas/14macedonia.png",
     },
     marcas: [
       {
@@ -496,6 +511,7 @@ const brandsInfo = [
       tel: "",
       dir: "",
       email: "",
+      flag: "../assets/img/banderas/11italia.png",
     },
     marcas: [
       {
@@ -517,6 +533,7 @@ const brandsInfo = [
       tel: "",
       dir: "",
       email: "",
+      flag: "../assets/img/banderas/8israel.png",
     },
     marcas: [
       {
@@ -559,8 +576,6 @@ selectContainer.innerHTML += `Estas son nuestras marcas en ${site.id}`;
 const gridCards = document.querySelector(".gridCards");
 
 site.marcas.map((brand) => {
-  console.log(brand.name.toLowerCase().slice(0, -6));
-  console.log(brand.web);
   gridCards.innerHTML += `
         <div class="cardBrand">
             <img src="${brand.img}" alt="${brand.name}">
@@ -577,5 +592,22 @@ site.marcas.map((brand) => {
                   <button class="goBrand">Ver Marca</button>
               </a>
             </div>
+        </div>`;
+});
+
+const btnMercados = document.getElementById("btnMercados");
+const gridFlagsMarket = document.querySelector(".gridFlagsMarket");
+
+btnMercados.addEventListener("click", (e) => {
+  gridFlagsMarket.classList.toggle("gridFlagsMarket-grey");
+});
+
+brandsInfo.map((country) => {
+  gridFlagsMarket.innerHTML += `
+        <div class="flags">
+          <a href="./mercadoPais.html?site=${country.id}">
+            <img src="${country.info.flag}" alt="${country.id}" />
+            <p>${country.id}</p>
+          </a>
         </div>`;
 });

@@ -910,6 +910,9 @@ body {
   margin: auto;
   padding: 0.5%;
 }
+.gridFlagsMarket {
+  display: none;
+}
 
 .gridFlags {
   display: grid;
@@ -920,6 +923,19 @@ body {
   width: 65%;
   margin: 5% auto;
   justify-items: center;
+}
+
+.gridFlagsMarket-grey {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 20px;
+  width: 65%;
+  padding: 4% 0;
+  margin: 0% auto;
+  justify-items: center;
+  background-color: #e9e8e6;
 }
 
 .flags {
@@ -1087,7 +1103,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 4% auto 10%;
+  margin: 4% auto 4%;
   gap: 10%;
 }
 
@@ -1136,6 +1152,10 @@ body {
   margin: auto;
 }
 
+.gridBrandsDropdown {
+  display: none;
+}
+
 .gridBrands {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -1144,6 +1164,18 @@ body {
   grid-row-gap: 20px;
   width: 60%;
   margin: 3% auto;
+}
+
+.gridBrandsDropdown-grey {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  width: 60%;
+  padding: 3% 3%;
+  margin: 3% auto;
+  background-color: #e9e8e6;
 }
 
 .oneBrand img {
@@ -2216,6 +2248,24 @@ hr {
     font-size: 12px;
   }
 
+  .gridFlagsMarket-grey {
+    width: 100%;
+    padding: 4% 4%;
+  }
+  .flags img {
+    width: 30%;
+  }
+  .flags p {
+    font-size: 14px;
+  }
+
+  .gridBrandsDropdown-grey {
+    margin: 0% auto;
+    width: 100%;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
   /* Formulario */
   .formContainer {
     flex-flow: column nowrap;
@@ -2297,6 +2347,9 @@ hr {
   .infoCountry p {
     font-size: 13.9px;
   }
+  .flags p {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 360px) {
@@ -2312,5 +2365,11 @@ hr {
   }
   .gridFlags {
     width: 90%;
+  }
+  .sliderBrands .inner {
+    height: 6rem;
+  }
+  .flags p {
+    font-size: 12px;
   }
 }
