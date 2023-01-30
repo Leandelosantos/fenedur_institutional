@@ -12,6 +12,8 @@ document.getElementById("form").addEventListener("submit", function (event) {
     () => {
       btn.value = "Send Email";
       alert("Enviado! Gracias por tu consulta");
+      const form = document.getElementById("form");
+      form.reset();
     },
     (err) => {
       btn.value = "Send Email";

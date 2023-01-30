@@ -1420,7 +1420,7 @@ body {
 }
 
 .back-markets-country button {
-  background-color: #766e65;
+  background-color: #aea69c;
   color: white;
   font-size: 18px;
   font-weight: 500;
@@ -1430,7 +1430,10 @@ body {
 }
 
 .back-markets-country button:nth-child(2) {
-  background-color: #aea69c;
+  background-color: #766e65;
+}
+.back-markets-country button:nth-child(3) {
+  background-color: #766e65;
 }
 
 .back-markets-country button a {
@@ -2311,6 +2314,9 @@ hr {
 @media (min-width: 1441px) and (max-width: 1920px) {
   .carousel-inner {
     height: 51rem;
+  }
+  .sliderBrands .inner {
+    height: 14rem;
   }
   .v-line {
     height: 15%;
