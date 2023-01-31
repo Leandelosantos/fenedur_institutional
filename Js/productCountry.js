@@ -137,7 +137,7 @@ const productsCountries = [
     ],
   },
   {
-    name: "LaGotita",
+    name: "La gotita",
     img: "../../assets/img/marcas/prodLaGotita.png",
     imgBig: "../../assets/img/marcas/bannerLaGotita.png",
     boldDesc:
@@ -339,7 +339,7 @@ const productsCountries = [
     ],
   },
   {
-    name: "ElPulpito",
+    name: "El Pulpito",
     img: "../../assets/img/marcas/elPulpito.png",
     imgBig: "../../assets/img/marcas/elPulpito.png",
     boldDesc:

@@ -71,7 +71,7 @@ const products = [
     ],
   },
   {
-    name: "LaGotita",
+    name: "La gotita",
     img: "../../assets/img/marcas/laGotita.png",
     imgBig: "../../assets/img/marcas/bannerLaGotita.png",
     boldDesc:
@@ -175,7 +175,7 @@ const products = [
     ],
   },
   {
-    name: "ElPulpito",
+    name: "El Pulpito",
     img: "../../assets/img/marcas/elPulpito.png",
     imgBig: "../../assets/img/marcas/elPulpito.png",
     boldDesc:

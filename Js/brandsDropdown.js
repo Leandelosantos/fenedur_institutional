@@ -4,7 +4,7 @@ const ourBrandsDropdown = [
     img: "../../assets/img/marcas/poxipol.png",
   },
   {
-    name: "LaGotita",
+    name: "La gotita",
     img: "../../assets/img/marcas/laGotita.png",
   },
   {
@@ -12,7 +12,7 @@ const ourBrandsDropdown = [
     img: "../../assets/img/marcas/eccole.png",
   },
   {
-    name: "ElPulpito",
+    name: "El Pulpito",
     img: "../../assets/img/marcas/elPulpito.png",
   },
   {

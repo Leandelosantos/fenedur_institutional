@@ -16,7 +16,7 @@ const brandsInfo = [
       },
       {
         img: "../assets/img/productos/lagotita.png",
-        name: "La Gotita&#174;",
+        name: "La gotita&#174;",
         web: "http://lagotita.com.uy",
       },
       {
@@ -77,7 +77,7 @@ const brandsInfo = [
       },
       {
         img: "../assets/img/productos/lagotita.png",
-        name: "La Gotita&#174;",
+        name: "La gotita&#174;",
         web: "https://lagotita.com.bo",
       },
       {
@@ -146,7 +146,7 @@ const brandsInfo = [
       },
       {
         img: "../assets/img/productos/lagotita.png",
-        name: "La Gotita&#174;",
+        name: "La gotita&#174;",
         web: "https://www.lagotita.com.cl",
       },
       {
@@ -193,7 +193,7 @@ const brandsInfo = [
       },
       {
         img: "../assets/img/productos/lagotita.png",
-        name: "La Gotita&#174;",
+        name: "La gotita&#174;",
         web: "https//www.lagotita.com.py",
       },
       {
@@ -235,7 +235,7 @@ const brandsInfo = [
       },
       {
         img: "../assets/img/productos/lagotita.png",
-        name: "La Gotita&#174;",
+        name: "La gotita&#174;",
         web: "https://www.lagotita.com.gt",
       },
       {
@@ -267,7 +267,7 @@ const brandsInfo = [
       },
       {
         img: "../assets/img/productos/lagotita.png",
-        name: "La Gotita&#174;",
+        name: "La gotita&#174;",
         web: "https://www.lagotita.com.ni",
       },
       {
@@ -294,7 +294,7 @@ const brandsInfo = [
       },
       {
         img: "../assets/img/productos/lagotita.png",
-        name: "La Gotita&#174;",
+        name: "La gotita&#174;",
         web: "https://www.lagotita.com.sv",
       },
       {
@@ -321,7 +321,7 @@ const brandsInfo = [
       },
       {
         img: "../assets/img/productos/lagotita.png",
-        name: "La Gotita&#174;",
+        name: "La gotita&#174;",
         web: "https://www.lagotita.co.cr",
       },
       {
@@ -353,7 +353,7 @@ const brandsInfo = [
       },
       {
         img: "../assets/img/productos/lagotita.png",
-        name: "La Gotita&#174;",
+        name: "La gotita&#174;",
         web: "https://www.lagotita.com.es",
       },
       {
@@ -586,7 +586,7 @@ site.marcas.map((brand) => {
               </a>
               <a href="./Marcas-y-Productos/productoPais.html?brand=${
                 brand.name === "La gotita" || "El pulpito"
-                  ? brand.name.replace(" ", "").slice(0, -6)
+                  ? brand.name.slice(0, -6)
                   : brand.name.slice(0, -6)
               }&site=${site.id}">
                   <button class="goBrand">Ver Marca</button>
