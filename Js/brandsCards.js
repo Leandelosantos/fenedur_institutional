@@ -71,7 +71,7 @@ const brandsInfo = [
     },
     marcas: [
       {
-        img: "../assets/img/productos/Poxipol.png",
+        img: "../assets/img/productos/poxipol.png",
         name: "Poxipol&#174;",
         web: "https://poxipol.com.bo/",
       },
