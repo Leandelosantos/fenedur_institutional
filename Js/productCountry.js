@@ -1,6 +1,6 @@
 const productsCountries = [
   {
-    name: "Poxipol",
+    name: "POXIPOL",
     img: "../../assets/img/marcas/prod-poxipol.png",
     imgBig: "../../assets/img/marcas/banner-poxipol.png",
     boldDesc:
@@ -262,7 +262,7 @@ const productsCountries = [
     ],
   },
   {
-    name: "Eccole",
+    name: "ÉCCOLE",
     img: "../../assets/img/marcas/prod-eccole.png",
     imgBig: "../../assets/img/marcas/banner-eccole.png",
     boldDesc:
@@ -440,7 +440,7 @@ const productsCountries = [
     ],
   },
   {
-    name: "Poximix",
+    name: "POXIMIX",
     img: "../../assets/img/marcas/prod-poximix.png",
     imgBig: "../../assets/img/marcas/banner-poximix.png",
     boldDesc:
@@ -593,7 +593,7 @@ const productsCountries = [
     ],
   },
   {
-    name: "Unipox",
+    name: "UNIPOX",
     img: "../../assets/img/marcas/prod-unipox.png",
     imgBig: "../../assets/img/marcas/banner-unipox.png",
     boldDesc:
@@ -676,10 +676,10 @@ const productCountryContainer = document.querySelector(
 
 productCountryContainer.innerHTML += `
     <img src="${productByBrand.imgBig}" alt="${productByBrand.name}">
-    <h2>${productByBrand.name}&#174; ${productByBrand.boldDesc}</h3>
+    <h2>${productByBrand.name}<sup>&#174;</sup> ${productByBrand.boldDesc}</h3>
     ${
       productByBrand.desc1
-        ? `<p>${productByBrand.name}&#174; ${productByBrand.desc1}</p>`
+        ? `<p>${productByBrand.name}<sup>&#174;</sup> ${productByBrand.desc1}</p>`
         : ""
     }`;
 
@@ -688,10 +688,10 @@ const infoProduct = document.querySelector(".infoProduct");
 infoProduct.innerHTML += `
     <h2>${
       productByBrand.name
-    }&#174; ${productByBrand.countryDist.id.toUpperCase()}</h2>
+    }<sup>&#174;</sup> ${productByBrand.countryDist.id.toUpperCase()}</h2>
     <h3>${
       productByBrand.name
-    }&#174; se comercializa en todo el país con gran éxito y es el adhesivo instantaneo elegido por los usuarios.</h3>
+    }<sup>&#174;</sup> se comercializa en todo el país con gran éxito y es el adhesivo instantaneo elegido por los usuarios.</h3>
     <img src="${productByBrand.img}" alt="${productByBrand.name}">
     <div class="infoCountry">
         <p>Distribuye:</p>

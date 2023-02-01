@@ -1,6 +1,6 @@
 const ourBrands = [
   {
-    name: "Poxipol",
+    name: "POXIPOL",
     img: "../assets/img/marcas/poxipol.png",
   },
   {
@@ -8,7 +8,7 @@ const ourBrands = [
     img: "../assets/img/marcas/la-gotita.png",
   },
   {
-    name: "Eccole",
+    name: "ÉCCOLE",
     img: "../assets/img/marcas/eccole.png",
   },
   {
@@ -20,7 +20,7 @@ const ourBrands = [
     img: "../assets/img/marcas/fastix.png",
   },
   {
-    name: "Poximix",
+    name: "POXIMIX",
     img: "../assets/img/marcas/poximix.png",
   },
   {
@@ -28,7 +28,7 @@ const ourBrands = [
     img: "../assets/img/marcas/poxilina.png",
   },
   {
-    name: "Unipox",
+    name: "UNIPOX",
     img: "../assets/img/marcas/unipox.png",
   },
   {

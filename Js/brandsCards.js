@@ -11,7 +11,7 @@ const brandsInfo = [
     marcas: [
       {
         img: "../assets/img/productos/poxipol.png",
-        name: "Poxipol&#174;",
+        name: "POXIPOL&#174;",
         web: "https://poxipol.com.uy",
       },
       {
@@ -31,12 +31,12 @@ const brandsInfo = [
       },
       {
         img: "../assets/img/productos/eccole.png",
-        name: "Éccole&#174;",
+        name: "ÉCCOLE&#174;",
         web: "http://www.eccole.com.uy",
       },
       {
         img: "../assets/img/productos/poximix.png",
-        name: "Poximix&#174;",
+        name: "POXIMIX&#174;",
         web: "http://www.poximix.com.uy",
       },
       {
@@ -56,7 +56,7 @@ const brandsInfo = [
       },
       {
         img: "../assets/img/productos/unipox.png",
-        name: "Unipox&#174;",
+        name: "UNIPOX&#174;",
         web: "",
       },
     ],
@@ -72,7 +72,7 @@ const brandsInfo = [
     marcas: [
       {
         img: "../assets/img/productos/poxipol.png",
-        name: "Poxipol&#174;",
+        name: "POXIPOL&#174;",
         web: "https://poxipol.com.bo/",
       },
       {
@@ -92,7 +92,7 @@ const brandsInfo = [
       },
       {
         img: "../assets/img/productos/eccole.png",
-        name: "Éccole&#174;",
+        name: "ÉCCOLE&#174;",
         web: "https://eccole.com.bo",
       },
       {
@@ -102,7 +102,7 @@ const brandsInfo = [
       },
       {
         img: "../assets/img/productos/unipox.png",
-        name: "Unipox&#174;",
+        name: "UNIPOX&#174;",
         web: "",
       },
     ],
@@ -118,8 +118,8 @@ const brandsInfo = [
     },
     marcas: [
       {
-        img: "../assets/img/productos/Poxipol.png",
-        name: "Poxipol&#174;",
+        img: "../assets/img/productos/POXIPOL.png",
+        name: "POXIPOL&#174;",
         web: "https://www.poxipol.com.br",
       },
       {
@@ -141,7 +141,7 @@ const brandsInfo = [
     marcas: [
       {
         img: "../assets/img/productos/poxipol.png",
-        name: "Poxipol&#174;",
+        name: "POXIPOL&#174;",
         web: "https://www.poxipol.com.cl",
       },
       {
@@ -161,12 +161,12 @@ const brandsInfo = [
       },
       {
         img: "../assets/img/productos/eccole.png",
-        name: "Éccole&#174;",
+        name: "ÉCCOLE&#174;",
         web: "https://www.eccole.com.cl",
       },
       {
         img: "../assets/img/productos/poximix.png",
-        name: "Poximix&#174;",
+        name: "POXIMIX&#174;",
         web: "https:/www.poximix.cl",
       },
       {
@@ -188,7 +188,7 @@ const brandsInfo = [
     marcas: [
       {
         img: "../assets/img/productos/poxipol.png",
-        name: "Poxipol&#174;",
+        name: "POXIPOL&#174;",
         web: "https//www.poxipol.com.py",
       },
       {
@@ -208,7 +208,7 @@ const brandsInfo = [
       },
       {
         img: "../assets/img/productos/eccole.png",
-        name: "Éccole&#174;",
+        name: "ÉCCOLE&#174;",
         web: "https://www.eccole.com.py",
       },
       {
@@ -230,7 +230,7 @@ const brandsInfo = [
     marcas: [
       {
         img: "../assets/img/productos/poxipol.png",
-        name: "Poxipol&#174;",
+        name: "POXIPOL&#174;",
         web: "https://www.poxipol.com.gt",
       },
       {
@@ -262,7 +262,7 @@ const brandsInfo = [
     marcas: [
       {
         img: "../assets/img/productos/poxipol.png",
-        name: "Poxipol&#174;",
+        name: "POXIPOL&#174;",
         web: "https://www.poxipol.com.ni",
       },
       {
@@ -289,7 +289,7 @@ const brandsInfo = [
     marcas: [
       {
         img: "../assets/img/productos/poxipol.png",
-        name: "Poxipol&#174;",
+        name: "POXIPOL&#174;",
         web: "https://www.poxipol.com.sv",
       },
       {
@@ -316,7 +316,7 @@ const brandsInfo = [
     marcas: [
       {
         img: "../assets/img/productos/poxipol.png",
-        name: "Poxipol&#174;",
+        name: "POXIPOL&#174;",
         web: "https://www.poxipol.co.cr",
       },
       {
@@ -348,7 +348,7 @@ const brandsInfo = [
     marcas: [
       {
         img: "../assets/img/productos/poxipol.png",
-        name: "Poxipol&#174;",
+        name: "POXIPOL&#174;",
         web: "https://www.poxipol.com.es",
       },
       {
@@ -368,7 +368,7 @@ const brandsInfo = [
       },
       {
         img: "../assets/img/productos/eccole.png",
-        name: "Éccole&#174;",
+        name: "ÉCCOLE&#174;",
         web: "https://www.eccole.com.es",
       },
     ],
@@ -385,7 +385,7 @@ const brandsInfo = [
     marcas: [
       {
         img: "../assets/img/productos/poxipol.png",
-        name: "Poxipol&#174;",
+        name: "POXIPOL&#174;",
         web: "https://www.poxipol.com.pl",
       },
       {
@@ -422,7 +422,7 @@ const brandsInfo = [
     marcas: [
       {
         img: "../assets/img/productos/poxipol.png",
-        name: "Poxipol&#174;",
+        name: "POXIPOL&#174;",
         web: "https://www.poxipol.com.ro",
       },
       {
@@ -452,7 +452,7 @@ const brandsInfo = [
     marcas: [
       {
         img: "../assets/img/productos/poxipol.png",
-        name: "Poxipol&#174;",
+        name: "POXIPOL&#174;",
         web: "https://www.poxipol.com.ru",
       },
       {
@@ -473,7 +473,7 @@ const brandsInfo = [
     marcas: [
       {
         img: "../assets/img/productos/poxipol.png",
-        name: "Poxipol&#174;",
+        name: "POXIPOL&#174;",
         web: "https://www.poxipol.bg",
       },
       {
@@ -494,7 +494,7 @@ const brandsInfo = [
     marcas: [
       {
         img: "../assets/img/productos/poxipol.png",
-        name: "Poxipol&#174;",
+        name: "POXIPOL&#174;",
         web: "https://www.poxipol.com.mk",
       },
       {
@@ -516,7 +516,7 @@ const brandsInfo = [
     marcas: [
       {
         img: "../assets/img/productos/poxipol.png",
-        name: "Poxipol&#174;",
+        name: "POXIPOL&#174;",
         web: "https://www.poxipol.com.ro",
       },
       {
@@ -538,7 +538,7 @@ const brandsInfo = [
     marcas: [
       {
         img: "../assets/img/productos/poxipol.png",
-        name: "Poxipol&#174;",
+        name: "POXIPOL&#174;",
         web: "https://www.poxipol.com.ro",
       },
     ],

@@ -1,6 +1,6 @@
 const products = [
   {
-    name: "Poxipol",
+    name: "POXIPOL",
     img: "../../assets/img/marcas/poxipol.png",
     imgBig: "../../assets/img/marcas/banner-poxipol.png",
     boldDesc:
@@ -138,7 +138,7 @@ const products = [
     ],
   },
   {
-    name: "Eccole",
+    name: "ÉCCOLE",
     img: "../../assets/img/marcas/eccole.png",
     imgBig: "../../assets/img/marcas/banner-eccole.png",
     boldDesc:
@@ -241,7 +241,7 @@ const products = [
     ],
   },
   {
-    name: "Poximix",
+    name: "POXIMIX",
     img: "../../assets/img/marcas/poximix.png",
     imgBig: "../../assets/img/marcas/banner-poximix.png",
     boldDesc:
@@ -331,7 +331,7 @@ const products = [
     ],
   },
   {
-    name: "Unipox",
+    name: "UNIPOX",
     img: "../../assets/img/marcas/unipox.png",
     imgBig: "../../assets/img/marcas/banner-unipox.png",
     boldDesc:
@@ -391,16 +391,16 @@ const brandCountry = document.querySelector(".brandCountry");
 
 productContainer.innerHTML += `
         <img src="${siteBrand.imgBig}" alt="${siteBrand.name}">
-        <h2 class="mobileHeader">${siteBrand.name}&#174; ${
+        <h2 class="mobileHeader">${siteBrand.name}<sup>&#174;</sup> ${
   siteBrand.boldDesc
 }</h2>
         ${
           siteBrand.desc1
-            ? `<p>${siteBrand.name}&#174; ${siteBrand.desc1}</p>`
+            ? `<p>${siteBrand.name}<sup>&#174;</sup> ${siteBrand.desc1}</p>`
             : ""
         }
         <div class="brandIn">
-            <h3>${siteBrand.name}&#174; ${
+            <h3>${siteBrand.name}<sup>&#174;</sup> ${
   siteBrand.comer
     ? siteBrand.comer
     : "se comercializa en los principales mercados del mundo."
