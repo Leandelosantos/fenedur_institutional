@@ -584,9 +584,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-flow: row nowrap;
-  /* background-image: url(../assets/img/navBackground.png);
-  background-size: cover; */
-  background-color: #766e65;
+  background-image: url(../assets/img/top_internas.png);
+  background-size: cover;
   width: 100%;
   height: 205px;
 }
@@ -852,12 +851,12 @@ body {
 
 /* Nuestros Mercados View */
 .shadowHeader {
-  margin: 5% auto 0;
+  margin: 0% auto 0;
   position: absolute;
   width: 100%;
   z-index: 999;
-  height: 80px;
-  top: 26%;
+  height: 40px;
+  top: 32%;
   font-size: 44px;
   text-align: center;
   background-color: white;
@@ -876,12 +875,12 @@ body {
 .ourMarketsHeader {
   background-image: url(../assets/img/planisferio.jpg);
   background-size: cover;
-  width: 109%;
+  background-position: center;
+  width: 100%;
   position: relative;
-  right: 6%;
   z-index: 0;
   text-align: center;
-  margin-top: 3.7%;
+  margin-top: 4.7%;
   height: 640px;
 }
 
@@ -1659,9 +1658,10 @@ hr {
     display: block;
     background-image: url(../assets/img/imgMobile/mask-slider.png);
     position: absolute;
-    top: 80%;
+    top: 79.4%;
     z-index: 999999;
     width: 100%;
+    height: 105px;
   }
 
   .navWho {
@@ -1972,17 +1972,15 @@ hr {
     background-color: transparent;
     box-shadow: none;
     z-index: 999;
-    top: 19%;
-    margin: 8% auto 0;
+    top: 16%;
+    margin: 6% auto 0;
   }
   .ourMarketsHeader {
-    width: 684px;
-    height: 310px;
-    z-index: 0;
+    width: 120%;
+    height: 320px;
     background-repeat: no-repeat;
-    position: relative;
-    right: 36%;
-    margin: 10% 0 0 0;
+    right: 10%;
+    margin: 5% 0 0 0;
   }
   .mainText {
     width: 90%;
@@ -2336,28 +2334,45 @@ hr {
   .v-line {
     height: 15%;
   }
+  .shadowHeader {
+    top: 25%;
+  }
 }
 
-@media (max-width: 1366px) {
+@media (min-width: 415px) and (max-width: 1366px) {
   .v-line p {
     width: 90%;
+  }
+  .shadowHeader {
+    top: 34%;
   }
 }
 
 @media (max-width: 375px) {
   .carousel-indicators {
-    top: 90%;
+    top: 93%;
   }
   .sliderBrands .indicators {
     top: 100%;
   }
+  .mainContainer {
+    margin-top: 0;
+  }
+  .mainContainer h1 {
+    margin: 5% 0 2% 0;
+  }
 
+  .shadowHeader {
+    top: 22%;
+    margin: 2% auto 0;
+  }
   .ourMarketsHeader {
-    width: 670px;
-    right: 43%;
+    width: 130%;
+    right: 15%;
+    height: 310px;
   }
   .btnConoceMas {
-    top: 73%;
+    top: 77%;
   }
   .brandIn .chooseCountry {
     width: 95%;
@@ -2371,12 +2386,18 @@ hr {
   .flags p {
     font-size: 13px;
   }
+  .bellyMobile {
+    top: 70.3%;
+    background-position: bottom;
+  }
 }
 
 @media (max-width: 360px) {
+  .shadowHeader {
+    top: 20%;
+  }
   .ourMarketsHeader {
-    width: 665px;
-    right: 47%;
+    height: 300px;
   }
   .v-line p {
     width: 95%;
@@ -2392,5 +2413,8 @@ hr {
   }
   .flags p {
     font-size: 12px;
+  }
+  .bellyMobile {
+    top: 71%;
   }
 }
