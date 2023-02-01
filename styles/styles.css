@@ -216,6 +216,12 @@ body {
   font-weight: 700;
 }
 
+/* Panza Mobile */
+
+.bellyMobile {
+  display: none;
+}
+
 /* Por que comprar */
 
 .whyBuy {
@@ -1647,6 +1653,15 @@ hr {
   }
   .btnConoceMas button {
     width: 93%;
+  }
+
+  .bellyMobile {
+    display: block;
+    background-image: url(../assets/img/imgMobile/mask-slider.png);
+    position: absolute;
+    top: 80%;
+    z-index: 999999;
+    width: 100%;
   }
 
   .navWho {
