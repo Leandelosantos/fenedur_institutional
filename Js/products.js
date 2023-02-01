@@ -2,7 +2,7 @@ const products = [
   {
     name: "Poxipol",
     img: "../../assets/img/marcas/poxipol.png",
-    imgBig: "../../assets/img/marcas/bannerPoxipol.png",
+    imgBig: "../../assets/img/marcas/banner-poxipol.png",
     boldDesc:
       "es un adhesivo epoxi de gran resistencia y durabilidad. Viene en dos componentes, es fácil de preparar y usar y endurece en sólo 10 minutos.",
     desc1:
@@ -72,8 +72,8 @@ const products = [
   },
   {
     name: "La gotita",
-    img: "../../assets/img/marcas/laGotita.png",
-    imgBig: "../../assets/img/marcas/bannerLaGotita.png",
+    img: "../../assets/img/marcas/la-gotita.png",
+    imgBig: "../../assets/img/marcas/banner-lagotita.png",
     boldDesc:
       "es un adhesivo instantáneo y fácil de usar para pequeñas reparaciones domésticas que pega en pocos segundos gran variedad de materiales. Las características que la hacen única es que sale gota a gota, su estuche se mantiene en pie, no salpica y no gotea.",
     desc1:
@@ -140,7 +140,7 @@ const products = [
   {
     name: "Eccole",
     img: "../../assets/img/marcas/eccole.png",
-    imgBig: "../../assets/img/marcas/eccole.png",
+    imgBig: "../../assets/img/marcas/banner-eccole.png",
     boldDesc:
       "es un adhesivo para zapatillas de consistencia tipo gel, rápido, transparente, resistente, flexible y fácil de usar. Se comercializa en todo el mundo, en algunos países con su marca y nombre original y en otros con su nombre adaptado a la lengua materna para tener un sentimiento local entre los consumidores y construir una imagen sólida.",
     paises: [
@@ -176,8 +176,8 @@ const products = [
   },
   {
     name: "El Pulpito",
-    img: "../../assets/img/marcas/elPulpito.png",
-    imgBig: "../../assets/img/marcas/elPulpito.png",
+    img: "../../assets/img/marcas/el-pulpito.png",
+    imgBig: "../../assets/img/marcas/banner-pulpito.png",
     boldDesc:
       "es un adhesivo sintético de montaje ideal para decorar y realizar pequeñas reparaciones en el hogar. Es un pegamento fuerte, resistente y durable que puede utilizarse tanto en interiores como en exteriores.",
     paises: [
@@ -206,7 +206,7 @@ const products = [
   {
     name: "Fastix",
     img: "../../assets/img/marcas/fastix.png",
-    imgBig: "../../assets/img/marcas/fastix.png",
+    imgBig: "../../assets/img/marcas/banner-fastix.png",
     boldDesc:
       "es un sellador de gran versatilidad, apto para múltiples superficies. Ideal para sellar mesadas, sanitarios, aberturas y cristales que viene en 3 versiones: Antihongo, Alta Temperatura y Motores.",
     paises: [
@@ -243,7 +243,7 @@ const products = [
   {
     name: "Poximix",
     img: "../../assets/img/marcas/poximix.png",
-    imgBig: "../../assets/img/marcas/poximix.png",
+    imgBig: "../../assets/img/marcas/banner-poximix.png",
     boldDesc:
       "es un producto a base de yeso, de color blanco, muy fácil de preparar y aplicar, ideal para reparar grietas y agujeros en paredes y techos en el interior del hogar.",
     paises: [
@@ -268,7 +268,7 @@ const products = [
   {
     name: "Poxilina",
     img: "../../assets/img/marcas/poxilina.png",
-    imgBig: "../../assets/img/marcas/poxilina.png",
+    imgBig: "../../assets/img/marcas/banner-poxilina.png",
     boldDesc:
       "es una masilla epoxi de dos componentes que puede resistir exposiciones hasta 80oC sin modificar sus propiedades. Adhiere sobre madera, cerámica, hormigón y metales. Sirve para reparar caños de distintos tipos de materiales como hierro, PVC, bronce y plomo y puede utilizarse para rellenar, reconstruir y/o restaurar.",
     paises: [
@@ -333,7 +333,7 @@ const products = [
   {
     name: "Unipox",
     img: "../../assets/img/marcas/unipox.png",
-    imgBig: "../../assets/img/marcas/unipox.png",
+    imgBig: "../../assets/img/marcas/banner-unipox.png",
     boldDesc:
       "es un adhesivo universal multipropósito resistente. Es ideal para manualidades y artesanías y pega todo tipo de materiales.",
     comer: "se vende con èxito en Uruguay.",
@@ -347,7 +347,7 @@ const products = [
   {
     name: "Voligoma",
     img: "../../assets/img/marcas/voligoma.png",
-    imgBig: "../../assets/img/marcas/voligoma.png",
+    imgBig: "../../assets/img/marcas/banner-voligoma.png",
     boldDesc:
       "es el adhesivo escolar más elegido por los chicos que pega papel, cartón y cartulina. Es muy fácil de maniobrar gracias a su formato. Viene con una almohadilla aplicadora que permite regular la dosificación, asegurando un pegado prolijo. No arruga el papel, no es tóxico, no contiene solventes y es fácilmente lavable.",
     comer: "se vende con éxito en Bolivia, Costa Rica y Uruguay",
@@ -369,7 +369,7 @@ const products = [
   {
     name: "Novopren",
     img: "../../assets/img/marcas/novopren.png",
-    imgBig: "../../assets/img/marcas/novopren.png",
+    imgBig: "../../assets/img/marcas/banner-novopren.png",
     boldDesc:
       "es un adhesivo de contacto clásico que se usa para la madera y marroquinería. Es indicado su uso para el pegado de cuero, goma, madera, papel, cerámica, metales, burletes, suelas de zapatos, etc.",
     comer: "se vende con éxito en Uruguay",

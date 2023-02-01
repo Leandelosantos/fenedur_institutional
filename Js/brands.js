@@ -5,7 +5,7 @@ const ourBrands = [
   },
   {
     name: "La gotita",
-    img: "../assets/img/marcas/laGotita.png",
+    img: "../assets/img/marcas/la-gotita.png",
   },
   {
     name: "Eccole",
@@ -13,7 +13,7 @@ const ourBrands = [
   },
   {
     name: "El Pulpito",
-    img: "../assets/img/marcas/elPulpito.png",
+    img: "../assets/img/marcas/el-pulpito.png",
   },
   {
     name: "Fastix",
