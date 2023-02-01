@@ -2344,7 +2344,10 @@ hr {
     width: 90%;
   }
   .shadowHeader {
-    top: 35%;
+    top: 36%;
+  }
+  .ourMarketsHeader {
+    height: 570px;
   }
 }
 
