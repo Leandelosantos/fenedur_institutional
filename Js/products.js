@@ -37,7 +37,7 @@ const products = [
         pais: "Chile",
       },
       {
-        flag: "../../assets/img/banderas/2españa.png",
+        flag: "../../assets/img/banderas/2espana.png",
         pais: "España",
       },
       {
@@ -104,7 +104,7 @@ const products = [
         pais: "Chile",
       },
       {
-        flag: "../../assets/img/banderas/2españa.png",
+        flag: "../../assets/img/banderas/2espana.png",
         pais: "España",
       },
       {
@@ -153,7 +153,7 @@ const products = [
         pais: "Chile",
       },
       {
-        flag: "../../assets/img/banderas/2españa.png",
+        flag: "../../assets/img/banderas/2espana.png",
         pais: "España",
       },
       {
@@ -223,7 +223,7 @@ const products = [
         pais: "Costa Rica",
       },
       {
-        flag: "../../assets/img/banderas/2españa.png",
+        flag: "../../assets/img/banderas/2espana.png",
         pais: "España",
       },
       {
@@ -289,7 +289,7 @@ const products = [
         pais: "Costa Rica",
       },
       {
-        flag: "../../assets/img/banderas/2españa.png",
+        flag: "../../assets/img/banderas/2espana.png",
         pais: "España",
       },
       {
@@ -412,7 +412,7 @@ productContainer.innerHTML += `
 const gridBrandCountry = document.querySelector(".gridBrandCountry");
 siteBrand.paises.map((country) => {
   gridBrandCountry.innerHTML += `<div class="brandCountry">
-  <a href="./productoPais.html?brand=${siteBrand.name}&site=${country.pais}"><img src="${country.flag}" alt="${country.pais}">
+  <a href="./productoPais.html?brand=${siteBrand.name}&site=${country.pais}#infoProduct"><img src="${country.flag}" alt="${country.pais}">
   <p>${country.pais}</p></a>
   </div>`;
 });

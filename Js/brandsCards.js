@@ -343,7 +343,7 @@ const brandsInfo = [
       tel: "(+34) 656323903",
       dir: "Las Mezquitas 14, San Juan de Alicante 03550.",
       email: "info@disposl.es",
-      flag: "../assets/img/banderas/2españa.png",
+      flag: "../assets/img/banderas/2espana.png",
     },
     marcas: [
       {
