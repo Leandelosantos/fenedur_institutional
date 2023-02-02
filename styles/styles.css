@@ -2368,7 +2368,7 @@ hr {
   }
 
   .shadowHeader {
-    top: 22%;
+    top: 25%;
     margin: 2% auto 0;
   }
   .ourMarketsHeader {
@@ -2400,7 +2400,7 @@ hr {
 @media (max-width: 360px) {
   .shadowHeader {
     margin: 0;
-    top: 24%;
+    top: 28%;
   }
   .ourMarketsHeader {
     height: 300px;
