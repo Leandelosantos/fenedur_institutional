@@ -1,4 +1,3 @@
 <IfModule mod_rewrite c>
-  RewriteEngine on RewriteRule DirectoryIndex index.html RewriteRule
-  ^Quienes-Somos/$ /views/quienesSomos.html
-</IfModule>;
+  RewriteEngine on RewriteRule ^quienes-somos /views/quienesSomos.html [NC,L] </IfModule
+>;
