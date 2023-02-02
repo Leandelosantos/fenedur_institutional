@@ -1660,7 +1660,7 @@ hr {
     display: block;
     background-image: url(../assets/img/imgMobile/mask-slider.png);
     position: absolute;
-    top: 78%;
+    top: 80%;
     z-index: 999999;
     width: 100%;
     height: 105px;
