@@ -1,3 +1,0 @@
-<IfModule mod_rewrite c>
-  RewriteEngine on RewriteRule ^quienes-somos /views/quienesSomos.html [NC,L] </IfModule
->;
