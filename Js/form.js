@@ -21,3 +21,7 @@ document.getElementById("form").addEventListener("submit", function (event) {
     }
   );
 });
+
+$(".menu-ul>li>a").on("click", function () {
+  $(".menu").collapse("hide");
+});
