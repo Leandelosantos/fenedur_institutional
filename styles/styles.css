@@ -1396,7 +1396,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  flex-flow: column nowrap;
+  flex-flow: row nowrap;
   margin: 4% 0;
   width: 100%;
 }
@@ -1410,11 +1410,10 @@ body {
   justify-content: flex-start;
   align-items: center;
   flex-flow: row nowrap;
-  gap: 1%;
 }
 
 .infoMedia img {
-  width: 5%;
+  width: 20%;
   margin: 0;
 }
 
@@ -2194,7 +2193,7 @@ hr {
     gap: 6px;
   }
   .infoMedia img {
-    width: 8%;
+    width: 40%;
   }
 
   .back-markets-country {
