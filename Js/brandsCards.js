@@ -561,12 +561,13 @@ const splitWord = (word) => {
     let firstWord = word.substring(0, 2);
     let secondWord = word.substring(2);
     return (separateWord = firstWord + " " + secondWord);
+  } else {
+    return word;
   }
 };
-console.log(splitWord("ElSalvador"));
 
 /* Info de pais y sus marcas */
-
+console.log(site.id);
 countryContainer.innerHTML += `
         <h2>${site.id ? splitWord(site.id) : site.id}</h2>
         <p>

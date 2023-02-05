@@ -25,6 +25,3 @@ document.getElementById("form").addEventListener("submit", function (event) {
 $(".menu-ul>li>a").on("click", function () {
   $(".menu").collapse("hide");
 });
-
-const data = document.querySelector(".carousel-indicators");
-console.log(data.attributes);
