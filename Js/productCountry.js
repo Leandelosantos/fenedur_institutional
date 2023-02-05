@@ -661,6 +661,7 @@ const myParamSite = urlParamsCountry.get("site");
 const productBrand = productsCountries.find(
   (element) => element.name === myParamBrand
 );
+
 const btnBackContainer = document.querySelector(".back-markets-country");
 
 const productByBrand = {
@@ -753,3 +754,387 @@ infoProduct.innerHTML += `
 
 btnBackContainer.innerHTML += `
 <button><a href="./producto.html?brand=${productByBrand.name}">Volver</a></button>`;
+
+/* Dropdown brands */
+
+const ourBrandsDropdown = [
+  {
+    id: "Polonia",
+    marcas: [
+      {
+        name: "POXIPOL",
+        img: "../../assets/img/marcas/poxipol.png",
+      },
+      {
+        name: "La gotita",
+        img: "../../assets/img/marcas/la-gotita.png",
+      },
+      {
+        name: "Poxilina",
+        img: "../../assets/img/marcas/poxilina.png",
+      },
+      {
+        name: "El Pulpito",
+        img: "../../assets/img/marcas/el-pulpito.png",
+      },
+      {
+        name: "ÉCCOLE",
+        img: "../../assets/img/marcas/eccole.png",
+      },
+    ],
+  },
+  {
+    id: "Uruguay",
+    marcas: [
+      {
+        name: "POXIPOL",
+        img: "../../assets/img/marcas/poxipol.png",
+      },
+      {
+        name: "La gotita",
+        img: "../../assets/img/marcas/la-gotita.png",
+      },
+      {
+        name: "Poxilina",
+        img: "../../assets/img/marcas/poxilina.png",
+      },
+      {
+        name: "ÉCCOLE",
+        img: "../../assets/img/marcas/eccole.png",
+      },
+      {
+        name: "El Pulpito",
+        img: "../../assets/img/marcas/el-pulpito.png",
+      },
+      {
+        name: "Fastix",
+        img: "../../assets/img/marcas/fastix.png",
+      },
+      {
+        name: "POXIMIX",
+        img: "../../assets/img/marcas/poximix.png",
+      },
+      {
+        name: "Novopren",
+        img: "../../assets/img/marcas/novopren.png",
+      },
+      {
+        name: "Voligoma",
+        img: "../../assets/img/marcas/voligoma.png",
+      },
+      {
+        name: "UNIPOX",
+        img: "../../assets/img/marcas/unipox.png",
+      },
+    ],
+  },
+  {
+    id: "Bolivia",
+    marcas: [
+      {
+        name: "POXIPOL",
+        img: "../../assets/img/marcas/poxipol.png",
+      },
+      {
+        name: "La gotita",
+        img: "../../assets/img/marcas/la-gotita.png",
+      },
+      {
+        name: "Poxilina",
+        img: "../../assets/img/marcas/poxilina.png",
+      },
+      {
+        name: "Fastix",
+        img: "../../assets/img/marcas/fastix.png",
+      },
+      {
+        name: "ÉCCOLE",
+        img: "../../assets/img/marcas/eccole.png",
+      },
+      {
+        name: "UNIPOX",
+        img: "../../assets/img/marcas/unipox.png",
+      },
+      {
+        name: "Voligoma",
+        img: "../../assets/img/marcas/voligoma.png",
+      },
+    ],
+  },
+  {
+    id: "Brasil",
+    marcas: [
+      {
+        name: "POXIPOL",
+        img: "../../assets/img/marcas/poxipol.png",
+      },
+      {
+        name: "Poxilina",
+        img: "../../assets/img/marcas/poxilina.png",
+      },
+    ],
+  },
+  {
+    id: "Chile",
+    marcas: [
+      {
+        name: "POXIPOL",
+        img: "../../assets/img/marcas/poxipol.png",
+      },
+      {
+        name: "La gotita",
+        img: "../../assets/img/marcas/la-gotita.png",
+      },
+      {
+        name: "Poxilina",
+        img: "../../assets/img/marcas/poxilina.png",
+      },
+      {
+        name: "Fastix",
+        img: "../../assets/img/marcas/fastix.png",
+      },
+      {
+        name: "ÉCCOLE",
+        img: "../../assets/img/marcas/eccole.png",
+      },
+      {
+        name: "POXIMIX",
+        img: "../../assets/img/marcas/poximix.png",
+      },
+      {
+        name: "El Pulpito",
+        img: "../../assets/img/marcas/el-pulpito.png",
+      },
+    ],
+  },
+  {
+    id: "Paraguay",
+    marcas: [
+      {
+        name: "POXIPOL",
+        img: "../../assets/img/marcas/poxipol.png",
+      },
+      {
+        name: "La gotita",
+        img: "../../assets/img/marcas/la-gotita.png",
+      },
+      {
+        name: "Poxilina",
+        img: "../../assets/img/marcas/poxilina.png",
+      },
+      {
+        name: "Fastix",
+        img: "../../assets/img/marcas/fastix.png",
+      },
+      {
+        name: "ÉCCOLE",
+        img: "../../assets/img/marcas/eccole.png",
+      },
+      {
+        name: "Voligoma",
+        img: "../../assets/img/marcas/voligoma.png",
+      },
+    ],
+  },
+  {
+    id: "Guatemala",
+    marcas: [
+      {
+        name: "POXIPOL",
+        img: "../../assets/img/marcas/poxipol.png",
+      },
+      {
+        name: "La gotita",
+        img: "../../assets/img/marcas/la-gotita.png",
+      },
+      {
+        name: "Poxilina",
+        img: "../../assets/img/marcas/poxilina.png",
+      },
+      {
+        name: "Fastix",
+        img: "../../assets/img/marcas/fastix.png",
+      },
+    ],
+  },
+  {
+    id: "Nicaragua",
+    marcas: [
+      {
+        name: "POXIPOL",
+        img: "../../assets/img/marcas/poxipol.png",
+      },
+      {
+        name: "La gotita",
+        img: "../../assets/img/marcas/la-gotita.png",
+      },
+      {
+        name: "Poxilina",
+        img: "../../assets/img/marcas/poxilina.png",
+      },
+    ],
+  },
+  {
+    id: "El Salvador",
+    marcas: [
+      {
+        name: "POXIPOL",
+        img: "../../assets/img/marcas/poxipol.png",
+      },
+      {
+        name: "La gotita",
+        img: "../../assets/img/marcas/la-gotita.png",
+      },
+      {
+        name: "Poxilina",
+        img: "../../assets/img/marcas/poxilina.png",
+      },
+    ],
+  },
+  {
+    id: "Costa Rica",
+    marcas: [
+      {
+        name: "POXIPOL",
+        img: "../../assets/img/marcas/poxipol.png",
+      },
+      {
+        name: "La gotita",
+        img: "../../assets/img/marcas/la-gotita.png",
+      },
+      {
+        name: "Poxilina",
+        img: "../../assets/img/marcas/poxilina.png",
+      },
+      {
+        name: "Fastix",
+        img: "../../assets/img/marcas/fastix.png",
+      },
+    ],
+  },
+  {
+    id: "España",
+    marcas: [
+      {
+        name: "POXIPOL",
+        img: "../../assets/img/marcas/poxipol.png",
+      },
+      {
+        name: "La gotita",
+        img: "../../assets/img/marcas/la-gotita.png",
+      },
+      {
+        name: "Poxilina",
+        img: "../../assets/img/marcas/poxilina.png",
+      },
+      {
+        name: "Fastix",
+        img: "../../assets/img/marcas/fastix.png",
+      },
+      {
+        name: "ÉCCOLE",
+        img: "../../assets/img/marcas/eccole.png",
+      },
+    ],
+  },
+  {
+    id: "Rumania",
+    marcas: [
+      {
+        name: "POXIPOL",
+        img: "../../assets/img/marcas/poxipol.png",
+      },
+      {
+        name: "La gotita",
+        img: "../../assets/img/marcas/la-gotita.png",
+      },
+      {
+        name: "Poxilina",
+        img: "../../assets/img/marcas/poxilina.png",
+      },
+      {
+        name: "ÉCCOLE",
+        img: "../../assets/img/marcas/eccole.png",
+      },
+    ],
+  },
+  {
+    id: "Rusia",
+    marcas: [
+      {
+        name: "POXIPOL",
+        img: "../../assets/img/marcas/poxipol.png",
+      },
+      {
+        name: "Poxilina",
+        img: "../../assets/img/marcas/poxilina.png",
+      },
+    ],
+  },
+  {
+    id: "Bulgaria",
+    marcas: [
+      {
+        name: "POXIPOL",
+        img: "../../assets/img/marcas/poxipol.png",
+      },
+      {
+        name: "La gotita",
+        img: "../../assets/img/marcas/la-gotita.png",
+      },
+    ],
+  },
+  {
+    id: "Macedonia",
+    marcas: [
+      {
+        name: "POXIPOL",
+        img: "../../assets/img/marcas/poxipol.png",
+      },
+      {
+        name: "La gotita",
+        img: "../../assets/img/marcas/la-gotita.png",
+      },
+    ],
+  },
+  {
+    id: "Italia",
+    marcas: [
+      {
+        name: "POXIPOL",
+        img: "../../assets/img/marcas/poxipol.png",
+      },
+      {
+        name: "Poxilina",
+        img: "../../assets/img/marcas/poxilina.png",
+      },
+    ],
+  },
+  {
+    id: "Israel",
+    marcas: [
+      {
+        name: "POXIPOL",
+        img: "../../assets/img/marcas/poxipol.png",
+      },
+    ],
+  },
+];
+
+const btnBrands = document.getElementById("btnBrands");
+const gridBrandsDropdown = document.querySelector(".gridBrandsDropdown");
+
+btnBrands.addEventListener("click", (e) => {
+  gridBrandsDropdown.classList.toggle("gridBrandsDropdown-grey");
+});
+
+const country = ourBrandsDropdown.find(
+  (country) => country.id === myParamSite
+).marcas;
+
+country.map((brand) => {
+  gridBrandsDropdown.innerHTML += `
+      <div class="oneBrand">
+        <a href="../Marcas-y-Productos/productoPais.html?brand=${brand.name}&site=${productByBrand.countryDist.id}#infoProduct"><img src="${brand.img}" alt="${brand.name}"></a> 
+      </div>`;
+});

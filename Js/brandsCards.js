@@ -278,7 +278,7 @@ const brandsInfo = [
     ],
   },
   {
-    id: "El Salvador",
+    id: "ElSalvador",
     info: {
       distribuidor: "CASCO DE EL SALVADOR S.A. DE C.V.",
       tel: "(+503) 2529-7000",
@@ -552,12 +552,27 @@ const urlParams = new URLSearchParams(window.location.search);
 const myParam = urlParams.get("site");
 const site = brandsInfo.find((element) => element.id === myParam);
 
+const splitWord = (word) => {
+  if (word === "CostaRica") {
+    let firstWord = word.substring(0, 5);
+    let secondWord = word.substring(5);
+    return (separateWord = firstWord + " " + secondWord);
+  } else if (word === "ElSalvador") {
+    let firstWord = word.substring(0, 2);
+    let secondWord = word.substring(2);
+    return (separateWord = firstWord + " " + secondWord);
+  }
+};
+console.log(splitWord("ElSalvador"));
+
 /* Info de pais y sus marcas */
 
 countryContainer.innerHTML += `
-        <h2>${site.id}</h2>
+        <h2>${site.id ? splitWord(site.id) : site.id}</h2>
         <p>
-          En ${site.id} nuestras marcas se comercializan con gran éxito y
+          En ${
+            site.id ? splitWord(site.id) : site.id
+          } nuestras marcas se comercializan con gran éxito y
           aceptación en los usuarios, llegando a todo el país para
           satisfacer las necesidades de nuestros consumidores. Para cada
           marca, destinamos material promocional, físico y digital, y
@@ -588,7 +603,7 @@ site.marcas.map((brand) => {
                 brand.name === "La gotita" || "El pulpito"
                   ? brand.name.slice(0, -6)
                   : brand.name.slice(0, -6)
-              }&site=${site.id}">
+              }&site=${site.id ? splitWord(site.id) : site.id}">
                   <button class="goBrand">Ver Marca</button>
               </a>
             </div>
