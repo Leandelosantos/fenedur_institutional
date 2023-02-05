@@ -603,7 +603,7 @@ site.marcas.map((brand) => {
                 brand.name === "La gotita" || "El pulpito"
                   ? brand.name.slice(0, -6)
                   : brand.name.slice(0, -6)
-              }&site=${site.id ? splitWord(site.id) : site.id}">
+              }&site=${site.id ? splitWord(site.id) : site.id}#infoProduct">
                   <button class="goBrand">Ver Marca</button>
               </a>
             </div>
