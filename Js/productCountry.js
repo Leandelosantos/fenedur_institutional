@@ -699,7 +699,7 @@ infoProduct.innerHTML += `
         <h4>${productByBrand.countryDist.distribuidor}</h4>
         <div class="infoTel">
           <div class="iconContainer">
-            <img src="../../assets/img/circlePhone.png" alt="phone">
+            <img src="../../assets/img/ico_tel.png" alt="phone">
             <p>${productByBrand.countryDist.tel}</p>
           </div>
           <div class="telContainer">
@@ -716,7 +716,7 @@ infoProduct.innerHTML += `
           </div>
         </div>
         <div class="infoEmail">
-        <img src="../../assets/img/circleMail.png" alt="email">
+        <img src="../../assets/img/ico_cont.png" alt="email">
           ${
             productByBrand.countryDist.email
               ? `<p>${productByBrand.countryDist.email}</p>`
@@ -726,27 +726,27 @@ infoProduct.innerHTML += `
         <div class="infoRRSS">
             ${
               productByBrand.countryDist.web
-                ? `<div class="infoMedia"><a href="${productByBrand.countryDist.web}" target="_blank"><img src="../../assets/img/circleGlobo.png" alt="web"></a></div>`
+                ? `<div class="infoMedia"><a href="${productByBrand.countryDist.web}" target="_blank"><img src="../../assets/img/ico_web.png" alt="web"></a></div>`
                 : ""
             }
             ${
               productByBrand.countryDist.fb
-                ? `<div class="infoMedia"><a href="${productByBrand.countryDist.fb}" target="_blank"><img src="../../assets/img/circleFb.png" alt="facebook"></a></div>`
+                ? `<div class="infoMedia"><a href="${productByBrand.countryDist.fb}" target="_blank"><img src="../../assets/img/ico_fb.png" alt="facebook"></a></div>`
                 : ""
             }
             ${
               productByBrand.countryDist.ig
-                ? `<div class="infoMedia"><a href="${productByBrand.countryDist.ig}" target="_blank"><img src="../../assets/img/circleIg.png" alt="instagram"></a></div>`
+                ? `<div class="infoMedia"><a href="${productByBrand.countryDist.ig}" target="_blank"><img src="../../assets/img/ico_ig.png" alt="instagram"></a></div>`
                 : ""
             }
             ${
               productByBrand.countryDist.yt
-                ? `<div class="infoMedia"><a href="${productByBrand.countryDist.yt}" target="_blank"><img src="../../assets/img/circleYt.png" alt="youtube"></a></div>`
+                ? `<div class="infoMedia"><a href="${productByBrand.countryDist.yt}" target="_blank"><img src="../../assets/img/ico_yt.png" alt="youtube"></a></div>`
                 : ""
             }
             ${
               productByBrand.countryDist.blog
-                ? `<div class="infoMedia"><a href="${productByBrand.countryDist.blog}" target="_blank"><img src="../../assets/img/circleBlog.png" alt="blog"></a></div>`
+                ? `<div class="infoMedia"><a href="${productByBrand.countryDist.blog}" target="_blank"><img src="../../assets/img/ico_blog.png" alt="blog"></a></div>`
                 : ""
             }
         </div>
