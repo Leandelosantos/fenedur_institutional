@@ -450,7 +450,7 @@ body {
   padding: 1.5%;
   border-radius: 4px;
   width: 55%;
-  margin: 2% 30% 3% 0;
+  margin: 2% 25% 3% 0;
 }
 .formContainer .formEmail {
   width: 100%;
@@ -2297,9 +2297,9 @@ hr {
   .formSelect {
     width: 100%;
   }
-  .formContainer .formSelect select {
+  /* .formContainer .formSelect select {
     margin: 2% 25% 3% 0;
-  }
+  } */
   .formContainer .col2 {
     width: 100%;
   }
