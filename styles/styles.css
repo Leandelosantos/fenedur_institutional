@@ -17,6 +17,7 @@ body {
 /* Header */
 
 .carousel-indicators {
+  right: 35px;
   top: 103%;
 }
 
@@ -1594,6 +1595,7 @@ hr {
     height: 32rem;
   }
   .carousel-indicators {
+    right: 5px;
     top: 100%;
   }
 
