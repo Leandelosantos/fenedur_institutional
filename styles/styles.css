@@ -1590,13 +1590,14 @@ hr {
 
 /* Index */
 
-@media (max-width: 414px) {
+@media screen and (max-width: 414px) {
   .carousel-inner {
-    height: 32rem;
+    /* height: 32rem; */
+    height: auto;
   }
   .carousel-indicators {
     right: 5px;
-    top: 100%;
+    top: 105%;
   }
 
   .logoFenedur {
@@ -1634,20 +1635,20 @@ hr {
     top: 2%;
   }
   .menu {
-    right: -70%;
+    right: -30%;
     width: 20rem;
     top: 90%;
   }
 
   .v-line {
-    height: 13%;
+    height: auto;
     left: 55%;
     top: 17%;
   }
   .v-line p {
     font-size: 15px;
     margin: 0 0 0 5%;
-    width: 90%;
+    width: auto;
   }
   .btnConoceMas {
     left: 36%;
@@ -1667,6 +1668,7 @@ hr {
     z-index: 999999;
     width: 100%;
     height: 105px;
+    background-position: bottom;
   }
 
   .navWho {
@@ -2329,7 +2331,7 @@ hr {
   }
 }
 
-@media (min-width: 1441px) and (max-width: 1920px) {
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
   .carousel-inner {
     height: 51rem;
   }
@@ -2344,7 +2346,7 @@ hr {
   }
 }
 
-@media (min-width: 415px) and (max-width: 1366px) {
+@media screen and (min-width: 415px) and (max-width: 1366px) {
   .v-line p {
     width: 90%;
   }
@@ -2356,15 +2358,26 @@ hr {
   }
 }
 
-@media (max-width: 375px) {
-  .carousel-indicators {
-    top: 93%;
+/* @media screen and (min-width: 376px) and (max-width: 413px) {
+  .bellyMobile {
+    top: 72%;
+    background-position: bottom;
+    width: 390px;
   }
+  .btnConoceMas {
+    top: 80%;
+  }
+} */
+
+@media screen and (min-width: 361px) and (max-width: 375px) {
+  /* .carousel-indicators {
+    top: 93%;
+  } */
   .sliderBrands .indicators {
     top: 100%;
   }
   .mainContainer {
-    margin-top: 0;
+    margin-top: 15%;
   }
   .mainContainer h1 {
     margin: 5% 0 2% 0;
@@ -2379,9 +2392,10 @@ hr {
     /* right: 15%; */
     height: 310px;
   }
-  .btnConoceMas {
-    top: 77%;
-  }
+  /*  .btnConoceMas {
+    top: 80%;
+    left: 35%;
+  } */
   .brandIn .chooseCountry {
     width: 95%;
   }
@@ -2394,13 +2408,14 @@ hr {
   .flags p {
     font-size: 13px;
   }
-  .bellyMobile {
-    top: 69%;
+  /* .bellyMobile {
+    top: 71%;
     background-position: bottom;
-  }
+    width: 375px;
+  } */
 }
 
-@media (max-width: 360px) {
+@media screen and (min-width: 321px) and (max-width: 360px) {
   .shadowHeader {
     margin: 0;
     top: 28%;
@@ -2408,11 +2423,12 @@ hr {
   .ourMarketsHeader {
     height: 300px;
   }
-  .v-line p {
+  /* .v-line p {
     width: 95%;
-  }
+  } */
   .carousel-inner {
-    height: 30rem;
+    /* height: 30rem; */
+    height: auto;
   }
   .gridFlags {
     width: 90%;
@@ -2424,9 +2440,39 @@ hr {
     font-size: 12px;
   }
   .bellyMobile {
-    top: 70%;
+    top: 77%;
   }
   .back-markets-country button {
     width: 70%;
+  }
+  .v-line p {
+    font-size: 0.8em;
+  }
+  .menu {
+    right: -60%;
+    width: 18rem;
+  }
+  .btnConoceMas {
+    width: 36%;
+    left: 33%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .bellyMobile {
+    top: 74%;
+  }
+  .btnConoceMas {
+    top: 82%;
+    width: 36%;
+    font-size: 12px;
+    left: 34%;
+  }
+  .v-line p {
+    font-size: 0.8em;
+  }
+  .menu {
+    right: -60%;
+    width: 18rem;
   }
 }
