@@ -1590,11 +1590,15 @@ hr {
 
 /* Index */
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 480px) {
   .carousel-inner {
     /* height: 32rem; */
     height: auto;
   }
+  .carousel-inner img {
+    width: 100%;
+  }
+
   .carousel-indicators {
     right: 5px;
     top: 105%;
@@ -1662,12 +1666,12 @@ hr {
 
   .bellyMobile {
     display: block;
-    background-image: url(../assets/img/imgMobile/mask-slider.png);
+    background-image: url(../assets/img/imgMobile/mask_480.png);
     position: absolute;
-    top: 80%;
+    top: 83%;
     z-index: 999999;
     width: 100%;
-    height: 105px;
+    height: 104px;
     background-position: bottom;
   }
 
@@ -2240,7 +2244,7 @@ hr {
     line-height: 25px;
   }
   .contactLogos .logoContainer img {
-    width: 8%;
+    width: 30%;
   }
   .logoContainer p {
     font-size: 15px;
@@ -2346,16 +2350,16 @@ hr {
   }
 }
 
-@media screen and (min-width: 415px) and (max-width: 1366px) {
+@media screen and (min-width: 480px) and (max-width: 1366px) {
   .v-line p {
     width: 90%;
   }
-  .shadowHeader {
+  /* .shadowHeader {
     top: 37%;
-  }
-  .ourMarketsHeader {
+  } */
+  /* .ourMarketsHeader {
     height: 570px;
-  }
+  } */
 }
 
 /* @media screen and (min-width: 376px) and (max-width: 413px) {
@@ -2388,7 +2392,7 @@ hr {
     margin: 2% auto 0;
   }
   .ourMarketsHeader {
-    width: 120%;
+    /* width: 120%; */
     /* right: 15%; */
     height: 310px;
   }
@@ -2418,10 +2422,10 @@ hr {
 @media screen and (min-width: 321px) and (max-width: 360px) {
   .shadowHeader {
     margin: 0;
-    top: 28%;
+    top: 24%;
   }
   .ourMarketsHeader {
-    height: 300px;
+    height: 280px;
   }
   /* .v-line p {
     width: 95%;
@@ -2432,6 +2436,9 @@ hr {
   }
   .gridFlags {
     width: 90%;
+  }
+  .gridBrands {
+    grid-template-columns: repeat(2, 1fr);
   }
   .sliderBrands .inner {
     height: 6rem;
@@ -2474,5 +2481,15 @@ hr {
   .menu {
     right: -60%;
     width: 18rem;
+  }
+
+  .ourMarketsHeader {
+    height: 250px;
+  }
+  .back-markets-country button {
+    width: 80%;
+  }
+  .gridBrands {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
